@@ -33,11 +33,28 @@ npm run build
 npm start
 ```
 
-## Deploy (Vercel)
+## Deploy
 
-1. Push this folder to a GitHub repository.
-2. Import the repo in [Vercel](https://vercel.com/new) with default Next.js settings.
-3. Ship — you get a production URL in minutes.
+### Option A — Vercel first (CLI, no Git yet)
+
+From this directory, with a [Vercel](https://vercel.com) account:
+
+```bash
+npx vercel@latest login
+npx vercel@latest        # preview deploy
+npx vercel@latest --prod # production URL
+```
+
+The CLI detects Next.js automatically. A `.vercel/` folder is created locally (gitignored) and stores the project link.
+
+### Option B — GitHub, then Vercel (continuous deployment)
+
+1. Create a repository on GitHub and push this repo (`main`).
+2. In [Vercel → New Project](https://vercel.com/new), import that repository.
+3. Use the default framework preset (**Next.js**). Root directory: repository root. Build: `next build`, Output: handled by Vercel.
+4. Deploy — every push to `main` can trigger a new production build (configure in Vercel project settings).
+
+After Option A, you can run `vercel git connect` from the linked project or attach the GitHub repo in the Vercel dashboard so previews and production track Git.
 
 ## Disclaimer
 
