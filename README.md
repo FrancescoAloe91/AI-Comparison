@@ -54,7 +54,24 @@ The CLI detects Next.js automatically. A `.vercel/` folder is created locally (g
 3. Use the default framework preset (**Next.js**). Root directory: repository root. Build: `next build`, Output: handled by Vercel.
 4. Deploy — every push to `main` can trigger a new production build (configure in Vercel project settings).
 
-After Option A, you can run `vercel git connect` from the linked project or attach the GitHub repo in the Vercel dashboard so previews and production track Git.
+After Option A, open your project on Vercel → **Settings → Git** and connect the GitHub repository once it exists, so previews and production track `main`.
+
+### Push to GitHub
+
+Create an empty repository on GitHub (no README/license if you are pushing this existing history). Then:
+
+```bash
+git remote add origin https://github.com/<you>/<repo>.git
+git push -u origin main
+```
+
+With [GitHub CLI](https://cli.github.com/) (`gh auth login` once):
+
+```bash
+gh repo create <you>/tether-ai-nexus-2026 --private --source=. --remote=origin --push
+```
+
+In Vercel, **Import Project** → pick the repo → deploy. Existing CLI-linked projects can attach the same repo under **Settings → Git**.
 
 ## Disclaimer
 
