@@ -1,0 +1,61 @@
+{
+  "lastFetched": "2026-04-07",
+  "items": [
+    {
+      "id": "n-qvac-site",
+      "title": "QVAC — local AI (official site)",
+      "url": "https://qvac.tether.io/",
+      "publishedAt": "2026-04-01",
+      "entitySlugs": ["qvac"],
+      "sourceName": "QVAC"
+    },
+    {
+      "id": "n-qvac-news",
+      "title": "Tether — news & announcements",
+      "url": "https://tether.io/news/",
+      "publishedAt": "2026-03-28",
+      "entitySlugs": ["qvac"],
+      "sourceName": "Tether"
+    },
+    {
+      "id": "n-openai-policies",
+      "title": "OpenAI — platform and usage policies",
+      "url": "https://openai.com/policies",
+      "publishedAt": "2026-03-01",
+      "entitySlugs": ["openai"],
+      "sourceName": "OpenAI"
+    },
+    {
+      "id": "n-ollama",
+      "title": "Ollama — run LLMs locally",
+      "url": "https://ollama.com/",
+      "publishedAt": "2026-03-18",
+      "entitySlugs": ["ollama"],
+      "sourceName": "Ollama"
+    },
+    {
+      "id": "n-lm-studio",
+      "title": "LM Studio — local LLM desktop app",
+      "url": "https://lmstudio.ai/",
+      "publishedAt": "2026-03-22",
+      "entitySlugs": ["lm-studio"],
+      "sourceName": "LM Studio"
+    },
+    {
+      "id": "n-apple-intelligence",
+      "title": "Apple — Apple Intelligence overview",
+      "url": "https://www.apple.com/apple-intelligence/",
+      "publishedAt": "2026-03-12",
+      "entitySlugs": ["apple-intelligence"],
+      "sourceName": "Apple"
+    },
+    {
+      "id": "n-bittensor-docs",
+      "title": "Bittensor documentation hub",
+      "url": "https://docs.bittensor.com",
+      "publishedAt": "2026-03-20",
+      "entitySlugs": ["bittensor"],
+      "sourceName": "Bittensor"
+    }
+  ]
+}

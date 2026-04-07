@@ -1,0 +1,192 @@
+{
+  "lastDatasetUpdate": "2026-04-07",
+  "disclaimer": "Axes and pro/con bullets are curated analysis (QVAC / local AI focus), not certified ratings. Verify against primary sources.",
+  "entities": [
+    {
+      "slug": "qvac",
+      "name": "QVAC (Tether)",
+      "category": "Local AI platform",
+      "tagline": "On-device intelligence: Workbench, vertical apps — not cloud-only gatekeepers.",
+      "officialUrl": "https://qvac.tether.io",
+      "axes": {
+        "selfCustody": 94,
+        "openStack": 72,
+        "regulatoryPosture": 48,
+        "interoperability": 78
+      },
+      "facts": [
+        { "label": "Positioning", "value": "Tether’s answer to centralized AI: models and agents run locally; data stays on the device." },
+        { "label": "Public surface", "value": "Workbench (local AI app), Health, Translate — privacy-first; Genesis datasets & mobile tooling on the roadmap." },
+        { "label": "Vs hyperscalers", "value": "Vertically integrated Tether AI story: data sovereignty + agents on devices, not only hosted APIs." },
+        { "label": "Value between agents", "value": "When fleets of agents coordinate work, closing the loop on liquidity is a planning dimension alongside model delivery and compliance." }
+      ],
+      "pros": [
+        {
+          "text": "Aligns privacy and ops control: avoids “prompts live in cloud” as the default, useful for enterprise and regulated contexts.",
+          "sources": [{ "label": "QVAC — home", "url": "https://qvac.tether.io/" }]
+        },
+        {
+          "text": "Clear product surface (Workbench + verticals) for roadmaps, dependencies, and adoption metrics.",
+          "sources": [{ "label": "Tether — news", "url": "https://tether.io/news/" }]
+        }
+      ],
+      "cons": [
+        {
+          "text": "Younger ecosystem vs mature cloud platforms: integrations, enterprise support, and time-to-market need explicit planning.",
+          "sources": [{ "label": "QVAC", "url": "https://qvac.tether.io/" }]
+        }
+      ],
+      "lastReviewed": "2026-04-07"
+    },
+    {
+      "slug": "openai",
+      "name": "OpenAI (API cloud)",
+      "category": "Closed AI stack",
+      "tagline": "Default for hosted assistants: fast shipping, vendor dependency.",
+      "officialUrl": "https://openai.com",
+      "axes": {
+        "selfCustody": 14,
+        "openStack": 14,
+        "regulatoryPosture": 58,
+        "interoperability": 52
+      },
+      "facts": [
+        { "label": "Model access", "value": "Hosted APIs and partner programs — not on-prem inference by default." },
+        { "label": "What they do “more” vs QVAC", "value": "Tooling maturity, global latency, integrator ecosystem — at the cost of on-device data sovereignty." }
+      ],
+      "pros": [
+        {
+          "text": "Operational reliability and speed for teams that need to ship immediately.",
+          "sources": [{ "label": "OpenAI", "url": "https://openai.com" }]
+        }
+      ],
+      "cons": [
+        {
+          "text": "Prompts and telemetry sit in vendor-controlled environments — not a local-first stack like QVAC.",
+          "sources": [{ "label": "OpenAI — policies", "url": "https://openai.com/policies" }]
+        }
+      ],
+      "lastReviewed": "2026-04-07"
+    },
+    {
+      "slug": "ollama",
+      "name": "Ollama",
+      "category": "Local OSS runtime",
+      "tagline": "Open-weight models locally: developer-friendly, not Tether’s product suite.",
+      "officialUrl": "https://ollama.com",
+      "axes": {
+        "selfCustody": 88,
+        "openStack": 92,
+        "regulatoryPosture": 40,
+        "interoperability": 68
+      },
+      "facts": [
+        { "label": "Focus", "value": "Run LLMs locally with downloadable models; strong community and integrations." },
+        { "label": "What it doesn’t bundle vs QVAC", "value": "No unified Workbench/vertical roadmap or Tether-side agent micropayment vision." }
+      ],
+      "pros": [
+        {
+          "text": "Wide developer adoption for local inference prototypes without model-vendor lock-in.",
+          "sources": [{ "label": "Ollama", "url": "https://ollama.com" }]
+        }
+      ],
+      "cons": [
+        {
+          "text": "Enterprise packaging and end-to-end “curated platform” story are often DIY — different from a guided stack.",
+          "sources": [{ "label": "Ollama on GitHub", "url": "https://github.com/ollama/ollama" }]
+        }
+      ],
+      "lastReviewed": "2026-04-07"
+    },
+    {
+      "slug": "bittensor",
+      "name": "Bittensor",
+      "category": "Open incentive network",
+      "tagline": "Subnets and TAO: incentivized market for distributed intelligence.",
+      "officialUrl": "https://bittensor.com",
+      "axes": {
+        "selfCustody": 78,
+        "openStack": 86,
+        "regulatoryPosture": 34,
+        "interoperability": 64
+      },
+      "facts": [
+        { "label": "Token", "value": "TAO; network economics and subnet-specific incentives." },
+        { "label": "Vs QVAC", "value": "Emphasizes protocol incentives and mining; QVAC emphasizes on-device product suite under Tether." }
+      ],
+      "pros": [
+        {
+          "text": "Open incentive design as an alternative to pure SaaS subscription economics.",
+          "sources": [{ "label": "Bittensor docs", "url": "https://docs.bittensor.com" }]
+        }
+      ],
+      "cons": [
+        {
+          "text": "UX, liquidity, and regulatory clarity differ from mainstream SaaS — real integration cost.",
+          "sources": [{ "label": "Bittensor", "url": "https://bittensor.com" }]
+        }
+      ],
+      "lastReviewed": "2026-04-07"
+    },
+    {
+      "slug": "lm-studio",
+      "name": "LM Studio",
+      "category": "Local desktop runtime",
+      "tagline": "GUI-first local LLMs: discover models, chat, ship a localhost API — popular with evaluators.",
+      "officialUrl": "https://lmstudio.ai",
+      "axes": {
+        "selfCustody": 86,
+        "openStack": 78,
+        "regulatoryPosture": 38,
+        "interoperability": 72
+      },
+      "facts": [
+        { "label": "Positioning", "value": "Closed-source app, free for personal use; strong model browser and one-click runs on Mac/Win/Linux." },
+        { "label": "Vs QVAC", "value": "Excellent for trying weights quickly — not a vertically integrated Tether product + device agent story." }
+      ],
+      "pros": [
+        {
+          "text": "Lowest friction for non-terminal users who still want local inference and OpenAI-compatible localhost serving.",
+          "sources": [{ "label": "LM Studio", "url": "https://lmstudio.ai/" }]
+        }
+      ],
+      "cons": [
+        {
+          "text": "Enterprise features (RBAC, audit, SLAs) are not the default story — often paired with other tooling.",
+          "sources": [{ "label": "LM Studio", "url": "https://lmstudio.ai/" }]
+        }
+      ],
+      "lastReviewed": "2026-04-07"
+    },
+    {
+      "slug": "apple-intelligence",
+      "name": "Apple Intelligence",
+      "category": "OS-integrated on-device AI",
+      "tagline": "Private Cloud Compute + on-device models: Apple’s bundle, not an open agent platform.",
+      "officialUrl": "https://www.apple.com/apple-intelligence/",
+      "axes": {
+        "selfCustody": 72,
+        "openStack": 22,
+        "regulatoryPosture": 62,
+        "interoperability": 48
+      },
+      "facts": [
+        { "label": "Scope", "value": "Tight integration with Apple hardware and OS; selective cloud augmentation with privacy claims." },
+        { "label": "Vs QVAC", "value": "Different contract: users live inside Apple’s stack — QVAC targets an open local-AI product line under Tether with cross-stack ambition." }
+      ],
+      "pros": [
+        {
+          "text": "Massive distribution and polished on-device UX for consumers who stay in the Apple ecosystem.",
+          "sources": [{ "label": "Apple — Apple Intelligence", "url": "https://www.apple.com/apple-intelligence/" }]
+        }
+      ],
+      "cons": [
+        {
+          "text": "Not a general-purpose programmable agent finance layer — extensibility and rails are platform-governed.",
+          "sources": [{ "label": "Apple legal / privacy", "url": "https://www.apple.com/legal/privacy/" }]
+        }
+      ],
+      "lastReviewed": "2026-04-07"
+    }
+  ]
+}

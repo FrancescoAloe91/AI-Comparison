@@ -1,0 +1,71 @@
+{
+  "steps": [
+    {
+      "id": "runtime",
+      "title": "Where does the agent run? (infra fork)",
+      "options": [
+        { "id": "cloud", "label": "Vendor cloud API", "tags": ["closed", "hosted"] },
+        { "id": "hybrid", "label": "Hybrid (VPC + external APIs)", "tags": ["mixed"] },
+        { "id": "local", "label": "On-device / on-prem (local-first)", "tags": ["sovereign"] }
+      ]
+    },
+    {
+      "id": "product",
+      "title": "Which product shape do you optimize for?",
+      "options": [
+        { "id": "suite", "label": "Vertical suite (e.g. Workbench + QVAC apps)", "tags": ["qvac_shape"] },
+        { "id": "oss", "label": "Generic OSS runtime (e.g. Ollama) + DIY glue", "tags": ["oss_runtime"] },
+        { "id": "hosted", "label": "Hosted API SaaS only (no curated local stack)", "tags": ["saas_only"] }
+      ]
+    },
+    {
+      "id": "pay",
+      "title": "Future scenario: how do bots pay each other? (design only)",
+      "options": [
+        { "id": "usdt", "label": "Micropayments in USDT / stables (horizon)", "tags": ["usdt"] },
+        { "id": "fiat", "label": "Card / invoice with human-in-the-loop", "tags": ["fiat"] },
+        { "id": "none", "label": "No money rail — internal compute metering only", "tags": ["no_rail"] }
+      ]
+    },
+    {
+      "id": "policy",
+      "title": "Compliance posture for payouts (if any)",
+      "options": [
+        { "id": "strict", "label": "Strict KYC + allowlist", "tags": ["kyc"] },
+        { "id": "balanced", "label": "Risk-based checks", "tags": ["risk"] },
+        { "id": "open", "label": "Sandbox with minimal gating", "tags": ["open"] }
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "when": { "allOf": ["hosted", "saas_only", "fiat", "kyc"] },
+      "title": "Friction for continuous agent economy",
+      "body": "Cloud API + fiat-only + strict KYC: a poor fit for machine-to-machine micropayments without repeated human approvals.",
+      "badge": "High friction"
+    },
+    {
+      "when": { "allOf": ["sovereign", "qvac_shape", "usdt", "open"] },
+      "title": "Aligned with QVAC + USDT horizon (demo)",
+      "body": "Local-first + QVAC-shaped suite + USDT between bots in a sandbox policy. Legal and issuer constraints still map to roadmap work.",
+      "badge": "Aligned (demo)"
+    },
+    {
+      "when": { "allOf": ["sovereign", "oss_runtime", "no_rail", "open"] },
+      "title": "Local OSS without a payment rail",
+      "body": "Great for privacy and prototypes; lacks the unified micropayment / agent-economy story QVAC can channel over time.",
+      "badge": "Inference-first"
+    },
+    {
+      "when": { "allOf": ["closed", "saas_only", "usdt", "kyc"] },
+      "title": "Stablecoins under heavy gating",
+      "body": "Stablecoin + heavy compliance fits regulated B2B; agent autonomy often narrows to known counterparties.",
+      "badge": "Compliance-first"
+    }
+  ],
+  "defaultOutcome": {
+    "title": "Hybrid mix",
+    "body": "Selections suggest partly automatable flows with policy exceptions or manual edges — a typical cross-team implementation backlog.",
+    "badge": "Needs clarification"
+  }
+}
