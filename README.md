@@ -1,23 +1,37 @@
-# Tether AI Nexus 2026
+# QVAC Local AI Lens
 
-A **single-page, pure-frontend** dashboard that argues a simple 2026 thesis: **stablecoins (especially USDT) are the settlement layer — the “gas” — for an economy of autonomous AI agents.** The UI is intentionally cinematic: dark cyberpunk aesthetics, a comparison matrix, a simulated settlement ticker, and an interactive radar chart. **All figures are illustrative mock data** for storytelling, not audited metrics or live market feeds.
+**Comparative dashboard for local-first AI stacks** — radar, ranking, matrix, and per-entity dossiers. Built as a static Next.js app: no database, no auth.
 
-## Why this exists
+[![Live site — Vercel](https://img.shields.io/badge/Live-ai--comparison--lx2e.vercel.app-000000?style=for-the-badge&logo=vercel)](https://ai-comparison-lx2e.vercel.app/)
 
-- **Agents do not behave like SaaS users.** They spawn subtasks, rent compute, and pay in milliseconds. Card rails and monthly subscriptions are a poor fit.
-- **Stable settlement** gives machines a common denomination with predictable volatility, while **private or sovereign rails** let operators align capital, policy, and hardware.
-- **Contrast matters.** This page juxtaposes a **USDT-native, privacy-forward stack** with **centralized API clouds** and **decentralized incentive networks** so the trade-offs read at a glance.
+| | |
+| --- | --- |
+| **Live URL** | **[https://ai-comparison-lx2e.vercel.app/](https://ai-comparison-lx2e.vercel.app/)** |
+| **Stack** | Next.js 16 (App Router), Tailwind v4, Recharts, Lucide |
+| **Data** | Illustrative mock scores for narrative comparison — not audited metrics or live feeds |
 
-## Stack
+---
 
-- [Next.js](https://nextjs.org/) (App Router)
-- [Tailwind CSS](https://tailwindcss.com/) v4
-- [Lucide React](https://lucide.dev/) (icons)
-- [Recharts](https://recharts.org/) (interactive radar)
+## What it shows
 
-No database, no auth, no server-side data layer — deploy anywhere static hosting works.
+- **Thesis block** — framing for QVAC (Tether) vs cloud APIs, OSS runtimes, desktop tools, OS bundles, and incentive networks.
+- **Radar + legend** — five normalized axes (0–100) and composite ranking.
+- **Matrix** — short operational snapshot per stack with links to **full dossiers**.
+- **Simulator** (`/simulator`) — UX-only flow lab: tags drive a P2P-style animation; no chain, no real payments.
+- **Sources** — curated link-outs; optional RSS refresh via GitHub Actions (`scripts/fetch-rss.mjs`).
 
-## Getting started
+Company and product names are used for **comparative illustration** only.
+
+---
+
+## Why this exists (thesis)
+
+- Autonomous agents need **fast, machine-sized settlement** — card rails and monthly SaaS billing are a poor fit; **stablecoins** (e.g. USDT in the narrative) are framed as a plausible **“gas” layer** for agent-to-agent value.
+- **Contrast** matters: a **local-first, programmable-value** story sits next to **centralized APIs** and **decentralized incentive networks** so trade-offs read at a glance.
+
+---
+
+## Local development
 
 ```bash
 npm install
@@ -26,56 +40,61 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## Build
-
 ```bash
 npm run build
 npm start
 ```
 
+---
+
 ## Deploy
 
-### Option A — Vercel first (CLI, no Git yet)
+Production is hosted on **Vercel** at the URL above. Source lives on GitHub; pushes to `main` can trigger new deployments when the Vercel project is connected to this repo.
 
-From this directory, with a [Vercel](https://vercel.com) account:
+### Vercel CLI (from this folder)
 
 ```bash
 npx vercel@latest login
-npx vercel@latest        # preview deploy
-npx vercel@latest --prod # production URL
+npx vercel@latest
+npx vercel@latest --prod
 ```
 
-The CLI detects Next.js automatically. A `.vercel/` folder is created locally (gitignored) and stores the project link.
+### GitHub → Vercel (continuous deployment)
 
-### Option B — GitHub, then Vercel (continuous deployment)
+1. Push this repository to GitHub (`main`).
+2. [Vercel → New Project](https://vercel.com/new) → import the repo → framework **Next.js**, root **repository root**.
+3. Optional: **Settings → Git** on Vercel to confirm automatic builds on push.
 
-1. Create a repository on GitHub and push this repo (`main`).
-2. In [Vercel → New Project](https://vercel.com/new), import that repository.
-3. Use the default framework preset (**Next.js**). Root directory: repository root. Build: `next build`, Output: handled by Vercel.
-4. Deploy — every push to `main` can trigger a new production build (configure in Vercel project settings).
-
-After Option A, open your project on Vercel → **Settings → Git** and connect the GitHub repository once it exists, so previews and production track `main`.
-
-### Push to GitHub
-
-Create an empty repository on GitHub (no README/license if you are pushing this existing history). Then:
+### Push to GitHub (if you clone fresh)
 
 ```bash
 git remote add origin https://github.com/<you>/<repo>.git
 git push -u origin main
 ```
 
-With [GitHub CLI](https://cli.github.com/) (`gh auth login` once):
+---
 
-```bash
-gh repo create <you>/tether-ai-nexus-2026 --private --source=. --remote=origin --push
-```
+## GitHub repository settings (optional)
 
-In Vercel, **Import Project** → pick the repo → deploy. Existing CLI-linked projects can attach the same repo under **Settings → Git**.
+Paste these into **github.com → your repo → ⚙ Settings → General** (or edit on the repo main page via the gear / “About”):
+
+**Description (short, ~350 characters max):**
+
+> Interactive comparison lens for local-first AI stacks (QVAC vs cloud, OSS, desktop, OS, incentives). Next.js app with radar, matrix, dossiers, and a UX-only agent-flow simulator. Live: https://ai-comparison-lx2e.vercel.app/
+
+**Topics / tags (suggested):**
+
+`nextjs` `react` `vercel` `tailwindcss` `local-ai` `ai-comparison` `tether` `qvac` `stablecoins` `dashboard`
+
+**Website (homepage field):**
+
+`https://ai-comparison-lx2e.vercel.app/`
+
+---
 
 ## Disclaimer
 
-This repository is a **design and narrative prototype**. Company names are used for **comparative illustration** only. Nothing here is financial, legal, or investment advice. Mock numbers are **not** sourced from live APIs.
+This repository is a **design and narrative prototype**. Nothing here is financial, legal, or investment advice. Mock numbers are **not** sourced from live APIs.
 
 ## License
 
