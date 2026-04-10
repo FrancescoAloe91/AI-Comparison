@@ -47,9 +47,9 @@ export function WelcomeDialog() {
           What this site is
         </h2>
         <p className="mt-3 text-sm leading-relaxed text-zinc-400">
-          A static comparison lens for local-first AI stacks: radar, composite ranking, and short matrix rows, plus
-          per-entity dossiers with curated facts and links. Scores are illustrative—not a vendor benchmark or investment
-          advice.
+          A comparison lens for local-first AI in two categories: <strong className="text-zinc-300">SDKs &amp; frameworks</strong> (for
+          developers) and <strong className="text-zinc-300">desktop apps</strong> (for end-users). Each has its own radar, matrix, and
+          dossiers. Scores are illustrative — not a vendor benchmark or investment advice.
         </p>
         <button
           type="button"

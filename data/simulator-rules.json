@@ -13,9 +13,9 @@
       "id": "product",
       "title": "Which product shape do you optimize for?",
       "options": [
-        { "id": "suite", "label": "Vertical suite (e.g. Workbench + QVAC apps)", "tags": ["qvac_shape"] },
-        { "id": "oss", "label": "Generic OSS runtime (e.g. Ollama) + DIY glue", "tags": ["oss_runtime"] },
-        { "id": "hosted", "label": "Hosted API SaaS only (no curated local stack)", "tags": ["saas_only"] }
+        { "id": "suite", "label": "Vertical suite (e.g. QVAC Workbench + apps)", "tags": ["qvac_shape"] },
+        { "id": "oss", "label": "OSS SDK / runtime (e.g. Ollama, llama.cpp) + DIY", "tags": ["oss_runtime"] },
+        { "id": "desktop", "label": "Desktop app (e.g. LM Studio, Jan, Osaurus)", "tags": ["desktop_app"] }
       ]
     },
     {
@@ -39,27 +39,27 @@
   ],
   "outcomes": [
     {
-      "when": { "allOf": ["hosted", "saas_only", "fiat", "kyc"] },
-      "title": "Friction for continuous agent economy",
-      "body": "Cloud API + fiat-only + strict KYC: a poor fit for machine-to-machine micropayments without repeated human approvals.",
-      "badge": "High friction"
-    },
-    {
       "when": { "allOf": ["sovereign", "qvac_shape", "usdt", "open"] },
       "title": "Aligned with QVAC + USDT horizon (demo)",
-      "body": "Local-first + QVAC-shaped suite + USDT between bots in a sandbox policy. Legal and issuer constraints still map to roadmap work.",
+      "body": "Local-first + QVAC suite + USDT between bots in a sandbox policy. Legal and issuer constraints still map to roadmap work.",
       "badge": "Aligned (demo)"
     },
     {
       "when": { "allOf": ["sovereign", "oss_runtime", "no_rail", "open"] },
-      "title": "Local OSS without a payment rail",
+      "title": "Local OSS SDK without a payment rail",
       "body": "Great for privacy and prototypes; lacks the unified micropayment / agent-economy story QVAC can channel over time.",
       "badge": "Inference-first"
     },
     {
-      "when": { "allOf": ["closed", "saas_only", "usdt", "kyc"] },
-      "title": "Stablecoins under heavy gating",
-      "body": "Stablecoin + heavy compliance fits regulated B2B; agent autonomy often narrows to known counterparties.",
+      "when": { "allOf": ["sovereign", "desktop_app", "no_rail", "open"] },
+      "title": "Desktop app — user-facing, no payment rail",
+      "body": "Polished UX for end-users running models locally. Payment and agent coordination are not part of the default story.",
+      "badge": "User-first"
+    },
+    {
+      "when": { "allOf": ["closed", "oss_runtime", "fiat", "kyc"] },
+      "title": "Cloud + OSS runtime under heavy gating",
+      "body": "Possible but high friction: cloud dependency + strict compliance narrows agent autonomy to known counterparties.",
       "badge": "Compliance-first"
     }
   ],

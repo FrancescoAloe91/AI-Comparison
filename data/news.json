@@ -1,12 +1,12 @@
 {
-  "lastFetched": "2026-04-07",
+  "lastFetched": "2026-04-10",
   "items": [
     {
       "id": "n-qvac-site",
       "title": "QVAC — local AI (official site)",
       "url": "https://qvac.tether.io/",
       "publishedAt": "2026-04-01",
-      "entitySlugs": ["qvac"],
+      "entitySlugs": ["qvac-sdk", "qvac-workbench"],
       "sourceName": "QVAC"
     },
     {
@@ -14,16 +14,8 @@
       "title": "Tether — news & announcements",
       "url": "https://tether.io/news/",
       "publishedAt": "2026-03-28",
-      "entitySlugs": ["qvac"],
+      "entitySlugs": ["qvac-sdk", "qvac-workbench"],
       "sourceName": "Tether"
-    },
-    {
-      "id": "n-openai-policies",
-      "title": "OpenAI — platform and usage policies",
-      "url": "https://openai.com/policies",
-      "publishedAt": "2026-03-01",
-      "entitySlugs": ["openai"],
-      "sourceName": "OpenAI"
     },
     {
       "id": "n-ollama",
@@ -34,6 +26,62 @@
       "sourceName": "Ollama"
     },
     {
+      "id": "n-ollama-mlx",
+      "title": "Ollama is now powered by MLX on Apple Silicon (preview)",
+      "url": "https://ollama.com/blog/mlx",
+      "publishedAt": "2026-03-30",
+      "entitySlugs": ["ollama", "mlx"],
+      "sourceName": "Ollama Blog"
+    },
+    {
+      "id": "n-llamacpp",
+      "title": "llama.cpp — LLM inference in C/C++",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "publishedAt": "2026-04-09",
+      "entitySlugs": ["llamacpp"],
+      "sourceName": "GitHub"
+    },
+    {
+      "id": "n-mlx",
+      "title": "MLX — array framework for Apple Silicon",
+      "url": "https://github.com/ml-explore/mlx",
+      "publishedAt": "2026-03-12",
+      "entitySlugs": ["mlx"],
+      "sourceName": "GitHub"
+    },
+    {
+      "id": "n-mlx-m5",
+      "title": "Exploring LLMs with MLX and Neural Accelerators on M5",
+      "url": "https://machinelearning.apple.com/research/exploring-llms-mlx-m5",
+      "publishedAt": "2025-11-19",
+      "entitySlugs": ["mlx", "apple-intelligence"],
+      "sourceName": "Apple ML Research"
+    },
+    {
+      "id": "n-localai",
+      "title": "LocalAI — the open-source AI engine",
+      "url": "https://localai.io/",
+      "publishedAt": "2026-04-02",
+      "entitySlugs": ["localai"],
+      "sourceName": "LocalAI"
+    },
+    {
+      "id": "n-vllm",
+      "title": "vLLM — high-throughput LLM serving",
+      "url": "https://vllm.ai/",
+      "publishedAt": "2026-04-03",
+      "entitySlugs": ["vllm"],
+      "sourceName": "vLLM"
+    },
+    {
+      "id": "n-vllm-metal",
+      "title": "vLLM Metal plugin — Apple Silicon via MLX",
+      "url": "https://github.com/vllm-project/vllm-metal",
+      "publishedAt": "2026-04-06",
+      "entitySlugs": ["vllm", "mlx"],
+      "sourceName": "GitHub"
+    },
+    {
       "id": "n-lm-studio",
       "title": "LM Studio — local LLM desktop app",
       "url": "https://lmstudio.ai/",
@@ -42,20 +90,28 @@
       "sourceName": "LM Studio"
     },
     {
+      "id": "n-jan",
+      "title": "Jan — open-source ChatGPT replacement",
+      "url": "https://jan.ai/",
+      "publishedAt": "2026-03-23",
+      "entitySlugs": ["jan"],
+      "sourceName": "Jan"
+    },
+    {
+      "id": "n-osaurus",
+      "title": "Osaurus — own your AI (macOS)",
+      "url": "https://osaurus.ai/",
+      "publishedAt": "2026-03-31",
+      "entitySlugs": ["osaurus"],
+      "sourceName": "Osaurus"
+    },
+    {
       "id": "n-apple-intelligence",
       "title": "Apple — Apple Intelligence overview",
       "url": "https://www.apple.com/apple-intelligence/",
       "publishedAt": "2026-03-12",
       "entitySlugs": ["apple-intelligence"],
       "sourceName": "Apple"
-    },
-    {
-      "id": "n-bittensor-docs",
-      "title": "Bittensor documentation hub",
-      "url": "https://docs.bittensor.com",
-      "publishedAt": "2026-03-20",
-      "entitySlugs": ["bittensor"],
-      "sourceName": "Bittensor"
     }
   ]
 }

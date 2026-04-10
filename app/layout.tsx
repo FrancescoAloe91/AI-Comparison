@@ -12,7 +12,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "QVAC Local AI Lens",
   description:
-    "QVAC-first landscape: local AI platforms vs cloud and OSS runtimes, primary sources, matrix, radar, and a UX-only agent-flow simulator (optional USDT horizon).",
+    "Local AI comparison: SDKs & frameworks (QVAC SDK, Ollama, llama.cpp, MLX, LocalAI, vLLM) and desktop apps (QVAC Workbench, LM Studio, Jan, Osaurus, Apple Intelligence). Radar, matrix, dossiers, and agent-flow simulator.",
 };
 
 export default function RootLayout({

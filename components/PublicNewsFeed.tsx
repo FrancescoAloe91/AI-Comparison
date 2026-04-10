@@ -13,7 +13,7 @@ export function PublicNewsFeed() {
           Sources
         </p>
         <h2 className="text-2xl font-semibold tracking-tight text-white sm:text-3xl">
-          Primary links (QVAC & comparators)
+          Primary links (SDKs, apps &amp; comparators)
         </h2>
         <p className="mt-3 max-w-2xl text-zinc-500">
           Curated primaries for entities above — swap in RSS-fed rows when you wire the Action. Last curated:{" "}

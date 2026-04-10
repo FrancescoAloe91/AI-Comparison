@@ -1,192 +1,351 @@
 {
-  "lastDatasetUpdate": "2026-04-07",
-  "disclaimer": "Axes and pro/con bullets are curated analysis (QVAC / local AI focus), not certified ratings. Verify against primary sources.",
+  "lastDatasetUpdate": "2026-04-10",
+  "disclaimer": "Axes and pro/con bullets are curated analysis for a local-AI comparison, not certified ratings. Verify against primary sources.",
   "entities": [
     {
-      "slug": "qvac",
-      "name": "QVAC (Tether)",
-      "category": "Local AI platform",
-      "tagline": "On-device intelligence: Workbench, vertical apps — not cloud-only gatekeepers.",
+      "slug": "qvac-sdk",
+      "name": "QVAC SDK (Tether)",
+      "category": "Local AI SDK",
+      "tagline": "Tether's SDK for on-device inference, agent primitives, and value rails on consumer hardware.",
       "officialUrl": "https://qvac.tether.io",
       "axes": {
-        "selfCustody": 94,
-        "openStack": 72,
-        "regulatoryPosture": 48,
-        "interoperability": 78
+        "selfCustody": 92,
+        "openStack": 60,
+        "regulatoryPosture": 55,
+        "interoperability": 65
       },
       "facts": [
-        { "label": "Positioning", "value": "Tether’s answer to centralized AI: models and agents run locally; data stays on the device." },
-        { "label": "Public surface", "value": "Workbench (local AI app), Health, Translate — privacy-first; Genesis datasets & mobile tooling on the roadmap." },
-        { "label": "Vs hyperscalers", "value": "Vertically integrated Tether AI story: data sovereignty + agents on devices, not only hosted APIs." },
-        { "label": "Value between agents", "value": "When fleets of agents coordinate work, closing the loop on liquidity is a planning dimension alongside model delivery and compliance." }
+        { "label": "Positioning", "value": "SDK for building local-first AI apps on consumer devices — models, agents, and rails under one Tether-backed stack." },
+        { "label": "Target", "value": "Developers building on-device AI products that need privacy, agent coordination, and a path to programmable value." },
+        { "label": "Backing", "value": "Tether — one of the largest digital asset issuers globally, funding AI R&D and device-level tooling." }
       ],
       "pros": [
         {
-          "text": "Aligns privacy and ops control: avoids “prompts live in cloud” as the default, useful for enterprise and regulated contexts.",
+          "text": "Strong corporate backing from Tether with a long-term roadmap spanning models, apps, and settlement rails.",
           "sources": [{ "label": "QVAC — home", "url": "https://qvac.tether.io/" }]
         },
         {
-          "text": "Clear product surface (Workbench + verticals) for roadmaps, dependencies, and adoption metrics.",
+          "text": "Vertically integrated: SDK + Workbench + vertical apps means a coordinated developer-to-user story.",
           "sources": [{ "label": "Tether — news", "url": "https://tether.io/news/" }]
         }
       ],
       "cons": [
         {
-          "text": "Younger ecosystem vs mature cloud platforms: integrations, enterprise support, and time-to-market need explicit planning.",
+          "text": "Younger ecosystem vs established OSS runtimes: fewer community integrations and third-party tooling today.",
           "sources": [{ "label": "QVAC", "url": "https://qvac.tether.io/" }]
         }
       ],
-      "lastReviewed": "2026-04-07"
-    },
-    {
-      "slug": "openai",
-      "name": "OpenAI (API cloud)",
-      "category": "Closed AI stack",
-      "tagline": "Default for hosted assistants: fast shipping, vendor dependency.",
-      "officialUrl": "https://openai.com",
-      "axes": {
-        "selfCustody": 14,
-        "openStack": 14,
-        "regulatoryPosture": 58,
-        "interoperability": 52
-      },
-      "facts": [
-        { "label": "Model access", "value": "Hosted APIs and partner programs — not on-prem inference by default." },
-        { "label": "What they do “more” vs QVAC", "value": "Tooling maturity, global latency, integrator ecosystem — at the cost of on-device data sovereignty." }
-      ],
-      "pros": [
-        {
-          "text": "Operational reliability and speed for teams that need to ship immediately.",
-          "sources": [{ "label": "OpenAI", "url": "https://openai.com" }]
-        }
-      ],
-      "cons": [
-        {
-          "text": "Prompts and telemetry sit in vendor-controlled environments — not a local-first stack like QVAC.",
-          "sources": [{ "label": "OpenAI — policies", "url": "https://openai.com/policies" }]
-        }
-      ],
-      "lastReviewed": "2026-04-07"
+      "lastReviewed": "2026-04-10"
     },
     {
       "slug": "ollama",
       "name": "Ollama",
-      "category": "Local OSS runtime",
-      "tagline": "Open-weight models locally: developer-friendly, not Tether’s product suite.",
+      "category": "Local AI SDK / Runtime",
+      "tagline": "One-command local LLM runtime with an OpenAI-compatible API and massive ecosystem.",
       "officialUrl": "https://ollama.com",
       "axes": {
         "selfCustody": 88,
-        "openStack": 92,
+        "openStack": 90,
         "regulatoryPosture": 40,
-        "interoperability": 68
+        "interoperability": 82
       },
       "facts": [
-        { "label": "Focus", "value": "Run LLMs locally with downloadable models; strong community and integrations." },
-        { "label": "What it doesn’t bundle vs QVAC", "value": "No unified Workbench/vertical roadmap or Tether-side agent micropayment vision." }
+        { "label": "Focus", "value": "Download and run LLMs locally in one command. Serves an OpenAI-compatible API on localhost." },
+        { "label": "Tech", "value": "Built on llama.cpp (and now MLX on Apple Silicon in preview). Supports GGUF and NVFP4 formats." },
+        { "label": "Backing", "value": "Independent / community-driven with significant developer adoption. No single corporate parent." }
       ],
       "pros": [
         {
-          "text": "Wide developer adoption for local inference prototypes without model-vendor lock-in.",
+          "text": "Lowest-friction way to run local LLMs. Enormous ecosystem — powers coding agents, assistants, and downstream tools.",
           "sources": [{ "label": "Ollama", "url": "https://ollama.com" }]
         }
       ],
       "cons": [
         {
-          "text": "Enterprise packaging and end-to-end “curated platform” story are often DIY — different from a guided stack.",
+          "text": "Enterprise packaging (RBAC, audit, SLAs) is DIY. No unified vertical product story — it's a runtime, not a platform.",
           "sources": [{ "label": "Ollama on GitHub", "url": "https://github.com/ollama/ollama" }]
         }
       ],
-      "lastReviewed": "2026-04-07"
+      "lastReviewed": "2026-04-10"
     },
     {
-      "slug": "bittensor",
-      "name": "Bittensor",
-      "category": "Open incentive network",
-      "tagline": "Subnets and TAO: incentivized market for distributed intelligence.",
-      "officialUrl": "https://bittensor.com",
+      "slug": "llamacpp",
+      "name": "llama.cpp",
+      "category": "Local AI inference engine",
+      "tagline": "The C/C++ foundation for local LLM inference — what most local AI tools build on.",
+      "officialUrl": "https://github.com/ggml-org/llama.cpp",
       "axes": {
-        "selfCustody": 78,
-        "openStack": 86,
-        "regulatoryPosture": 34,
-        "interoperability": 64
+        "selfCustody": 94,
+        "openStack": 96,
+        "regulatoryPosture": 35,
+        "interoperability": 78
       },
       "facts": [
-        { "label": "Token", "value": "TAO; network economics and subnet-specific incentives." },
-        { "label": "Vs QVAC", "value": "Emphasizes protocol incentives and mining; QVAC emphasizes on-device product suite under Tether." }
+        { "label": "Focus", "value": "Minimal-dependency C/C++ LLM inference engine. llama-cli for chat, llama-server for OpenAI-compatible API." },
+        { "label": "Ecosystem", "value": "The engine underneath Ollama, LM Studio, LocalAI, and many others. GGUF is the de facto local model format." },
+        { "label": "Backing", "value": "Created by Georgi Gerganov. The ggml team joined Hugging Face in early 2026. MIT licensed." }
       ],
       "pros": [
         {
-          "text": "Open incentive design as an alternative to pure SaaS subscription economics.",
-          "sources": [{ "label": "Bittensor docs", "url": "https://docs.bittensor.com" }]
+          "text": "Widest hardware support (CUDA, Vulkan, Metal, CPU) and best raw performance. The foundation everything else builds on.",
+          "sources": [{ "label": "llama.cpp on GitHub", "url": "https://github.com/ggml-org/llama.cpp" }]
         }
       ],
       "cons": [
         {
-          "text": "UX, liquidity, and regulatory clarity differ from mainstream SaaS — real integration cost.",
-          "sources": [{ "label": "Bittensor", "url": "https://bittensor.com" }]
+          "text": "Requires building from source or manual setup for full control. Higher barrier to entry than wrapper tools like Ollama.",
+          "sources": [{ "label": "llama.cpp README", "url": "https://github.com/ggml-org/llama.cpp/blob/master/README.md" }]
         }
       ],
-      "lastReviewed": "2026-04-07"
+      "lastReviewed": "2026-04-10"
+    },
+    {
+      "slug": "mlx",
+      "name": "MLX (Apple)",
+      "category": "Apple Silicon ML framework",
+      "tagline": "Apple's open-source array framework for machine learning on Apple Silicon.",
+      "officialUrl": "https://github.com/ml-explore/mlx",
+      "axes": {
+        "selfCustody": 90,
+        "openStack": 82,
+        "regulatoryPosture": 50,
+        "interoperability": 45
+      },
+      "facts": [
+        { "label": "Focus", "value": "NumPy-like array framework with Python, C++, and Swift APIs. Optimized for Apple Silicon unified memory and Neural Accelerators." },
+        { "label": "Ecosystem", "value": "mlx-lm for LLM inference/fine-tuning. Powers Ollama's new MLX backend. Experimental CUDA support for Linux." },
+        { "label": "Backing", "value": "Apple Machine Learning Research. MIT licensed. 25k GitHub stars." }
+      ],
+      "pros": [
+        {
+          "text": "Best-in-class performance on Apple Silicon. Up to 4x TTFT speedup on M5 with Neural Accelerators.",
+          "sources": [{ "label": "MLX on GitHub", "url": "https://github.com/ml-explore/mlx" }]
+        }
+      ],
+      "cons": [
+        {
+          "text": "Apple Silicon only for production use. Not a general-purpose cross-platform runtime — use llama.cpp or Ollama for that.",
+          "sources": [{ "label": "Apple ML Research — MLX", "url": "https://machinelearning.apple.com/research/exploring-llms-mlx-m5" }]
+        }
+      ],
+      "lastReviewed": "2026-04-10"
+    },
+    {
+      "slug": "localai",
+      "name": "LocalAI",
+      "category": "Local AI engine",
+      "tagline": "All-in-one open-source AI engine — LLMs, vision, voice, image, and video locally.",
+      "officialUrl": "https://localai.io",
+      "axes": {
+        "selfCustody": 86,
+        "openStack": 92,
+        "regulatoryPosture": 38,
+        "interoperability": 80
+      },
+      "facts": [
+        { "label": "Focus", "value": "Go-based engine with 35+ backends (llama.cpp, vLLM, transformers, whisper, diffusers, MLX). OpenAI + Anthropic API compatible." },
+        { "label": "Features", "value": "Agents, fine-tuning UI, distributed clustering, multi-user auth/quotas (v4.1). No GPU required." },
+        { "label": "Backing", "value": "Community-driven, created by Ettore Di Giacinto. MIT licensed. 45k GitHub stars." }
+      ],
+      "pros": [
+        {
+          "text": "Most complete local AI stack: LLMs, image gen, TTS, STT, vision, embeddings, agents, and MCP — in a single binary.",
+          "sources": [{ "label": "LocalAI", "url": "https://localai.io" }]
+        }
+      ],
+      "cons": [
+        {
+          "text": "Breadth comes with complexity. Docker recommended for setup. No major corporate backer — community-maintained.",
+          "sources": [{ "label": "LocalAI on GitHub", "url": "https://github.com/mudler/LocalAI" }]
+        }
+      ],
+      "lastReviewed": "2026-04-10"
+    },
+    {
+      "slug": "vllm",
+      "name": "vLLM",
+      "category": "High-throughput inference engine",
+      "tagline": "Production-grade LLM serving with PagedAttention — now expanding to consumer devices.",
+      "officialUrl": "https://vllm.ai",
+      "axes": {
+        "selfCustody": 82,
+        "openStack": 88,
+        "regulatoryPosture": 42,
+        "interoperability": 75
+      },
+      "facts": [
+        { "label": "Focus", "value": "High-throughput, memory-efficient LLM inference and serving. PagedAttention, continuous batching, speculative decoding." },
+        { "label": "Consumer use", "value": "Apple Silicon via vllm-metal plugin (MLX backend). Consumer GPU use via on-demand gateway pattern. Primarily a server-side tool." },
+        { "label": "Backing", "value": "Originated at UC Berkeley Sky Lab. Community-driven with broad industry sponsorship. Apache 2.0 licensed. 75k GitHub stars." }
+      ],
+      "pros": [
+        {
+          "text": "Highest throughput for GPU serving. Industry standard for production LLM deployments. Broad model and hardware support.",
+          "sources": [{ "label": "vLLM", "url": "https://vllm.ai" }]
+        }
+      ],
+      "cons": [
+        {
+          "text": "Primarily designed for production GPU servers — complex setup, Linux-first. Consumer-device use is secondary and experimental.",
+          "sources": [{ "label": "vLLM on GitHub", "url": "https://github.com/vllm-project/vllm" }]
+        }
+      ],
+      "lastReviewed": "2026-04-10"
+    },
+    {
+      "slug": "qvac-workbench",
+      "name": "QVAC Workbench (Tether)",
+      "category": "Local AI desktop app",
+      "tagline": "Tether's end-user AI app — on-device inference, vertical apps, data sovereignty.",
+      "officialUrl": "https://qvac.tether.io",
+      "axes": {
+        "selfCustody": 94,
+        "openStack": 58,
+        "regulatoryPosture": 52,
+        "interoperability": 62
+      },
+      "facts": [
+        { "label": "Positioning", "value": "Desktop AI application with Workbench + vertical apps (Health, Translate). Privacy-first: data stays on device." },
+        { "label": "Roadmap", "value": "Genesis datasets, mobile tooling, and agent coordination features on the horizon." },
+        { "label": "Backing", "value": "Tether AI division — spanning models, apps, and infrastructure under one corporate roadmap." }
+      ],
+      "pros": [
+        {
+          "text": "Strong data sovereignty story: no cloud dependency as default. Backed by Tether's long-term AI investment.",
+          "sources": [{ "label": "QVAC — home", "url": "https://qvac.tether.io/" }]
+        }
+      ],
+      "cons": [
+        {
+          "text": "Younger app vs mature alternatives like LM Studio. Smaller model library and community integrations today.",
+          "sources": [{ "label": "QVAC", "url": "https://qvac.tether.io/" }]
+        }
+      ],
+      "lastReviewed": "2026-04-10"
     },
     {
       "slug": "lm-studio",
       "name": "LM Studio",
-      "category": "Local desktop runtime",
-      "tagline": "GUI-first local LLMs: discover models, chat, ship a localhost API — popular with evaluators.",
+      "category": "Local AI desktop app",
+      "tagline": "GUI-first local LLMs: discover models, chat, and ship a localhost API.",
       "officialUrl": "https://lmstudio.ai",
       "axes": {
         "selfCustody": 86,
-        "openStack": 78,
+        "openStack": 68,
         "regulatoryPosture": 38,
-        "interoperability": 72
+        "interoperability": 74
       },
       "facts": [
-        { "label": "Positioning", "value": "Closed-source app, free for personal use; strong model browser and one-click runs on Mac/Win/Linux." },
-        { "label": "Vs QVAC", "value": "Excellent for trying weights quickly — not a vertically integrated Tether product + device agent story." }
+        { "label": "Positioning", "value": "Polished desktop app for downloading, evaluating, and serving LLMs locally. Model browser with one-click runs." },
+        { "label": "API", "value": "OpenAI-compatible API on localhost:1234. Python and TypeScript SDKs reached v1.0." },
+        { "label": "Backing", "value": "Closed-source product, free for personal use. Independent company (LM Studio Inc.)." }
       ],
       "pros": [
         {
-          "text": "Lowest friction for non-terminal users who still want local inference and OpenAI-compatible localhost serving.",
+          "text": "Lowest friction for non-terminal users. Excellent model browser and side-by-side evaluation. Mac/Win/Linux.",
           "sources": [{ "label": "LM Studio", "url": "https://lmstudio.ai/" }]
         }
       ],
       "cons": [
         {
-          "text": "Enterprise features (RBAC, audit, SLAs) are not the default story — often paired with other tooling.",
+          "text": "Closed-source. Limited extensibility — no agents, plugins, or MCP by default. Enterprise features (RBAC, audit) absent.",
           "sources": [{ "label": "LM Studio", "url": "https://lmstudio.ai/" }]
         }
       ],
-      "lastReviewed": "2026-04-07"
+      "lastReviewed": "2026-04-10"
+    },
+    {
+      "slug": "jan",
+      "name": "Jan",
+      "category": "Local AI desktop app",
+      "tagline": "Open-source ChatGPT replacement — agents, CLI, memory, and full offline support.",
+      "officialUrl": "https://jan.ai",
+      "axes": {
+        "selfCustody": 84,
+        "openStack": 86,
+        "regulatoryPosture": 36,
+        "interoperability": 78
+      },
+      "facts": [
+        { "label": "Positioning", "value": "Apache 2.0 desktop app. Built-in foundation models, agents, CLI, and OpenAI-compatible API. 5M+ downloads." },
+        { "label": "Features", "value": "Agents with tool use, WhatsApp/email connectors, MCP support, native MLX on macOS, context management." },
+        { "label": "Backing", "value": "Jan AI (formerly Homebrew Computer Company). Venture-backed indie. Apache 2.0 licensed. 41k GitHub stars." }
+      ],
+      "pros": [
+        {
+          "text": "Broadest platform support (Mac/Win/Linux) with agents, CLI, and web UI. Active open-source community.",
+          "sources": [{ "label": "Jan", "url": "https://jan.ai" }]
+        }
+      ],
+      "cons": [
+        {
+          "text": "Stability issues in recent releases (v0.7.8 model download bugs). Rapidly evolving — API surface can shift.",
+          "sources": [{ "label": "Jan changelog", "url": "https://jan.ai/changelog" }]
+        }
+      ],
+      "lastReviewed": "2026-04-10"
+    },
+    {
+      "slug": "osaurus",
+      "name": "Osaurus",
+      "category": "Local AI desktop app",
+      "tagline": "Native macOS AI harness — agents, persistent memory, tools, and cryptographic identity.",
+      "officialUrl": "https://osaurus.ai",
+      "axes": {
+        "selfCustody": 95,
+        "openStack": 88,
+        "regulatoryPosture": 30,
+        "interoperability": 55
+      },
+      "facts": [
+        { "label": "Positioning", "value": "Swift-native macOS app. Local models via MLX, cloud providers optional. Agents with 4-layer memory and crypto identity." },
+        { "label": "Features", "value": "20+ native plugins, MCP server/client, sandboxed code execution (macOS 26), schedules, watchers, skills." },
+        { "label": "Backing", "value": "Osaurus Inc. — indie, built in public. MIT licensed. 4.4k GitHub stars." }
+      ],
+      "pros": [
+        {
+          "text": "Most extensible local AI app: agents, memory, plugins, MCP, crypto identity, and sandboxed execution in one package.",
+          "sources": [{ "label": "Osaurus", "url": "https://osaurus.ai" }]
+        }
+      ],
+      "cons": [
+        {
+          "text": "macOS only (Apple Silicon, macOS 15.5+). Small team, niche audience. No Windows or Linux support.",
+          "sources": [{ "label": "Osaurus docs", "url": "https://docs.osaurus.ai" }]
+        }
+      ],
+      "lastReviewed": "2026-04-10"
     },
     {
       "slug": "apple-intelligence",
       "name": "Apple Intelligence",
       "category": "OS-integrated on-device AI",
-      "tagline": "Private Cloud Compute + on-device models: Apple’s bundle, not an open agent platform.",
+      "tagline": "Private Cloud Compute + on-device models — Apple's bundle, not an open agent platform.",
       "officialUrl": "https://www.apple.com/apple-intelligence/",
       "axes": {
         "selfCustody": 72,
         "openStack": 22,
         "regulatoryPosture": 62,
-        "interoperability": 48
+        "interoperability": 38
       },
       "facts": [
-        { "label": "Scope", "value": "Tight integration with Apple hardware and OS; selective cloud augmentation with privacy claims." },
-        { "label": "Vs QVAC", "value": "Different contract: users live inside Apple’s stack — QVAC targets an open local-AI product line under Tether with cross-stack ambition." }
+        { "label": "Scope", "value": "On-device models plus selective cloud augmentation. Deep integration with Apple hardware, Siri, and system apps." },
+        { "label": "Extensibility", "value": "Limited to Apple's extension points. Not a general-purpose agent platform — platform-governed boundaries." },
+        { "label": "Backing", "value": "Apple Inc. — the largest company by market cap. Massive distribution across iPhone, iPad, and Mac." }
       ],
       "pros": [
         {
-          "text": "Massive distribution and polished on-device UX for consumers who stay in the Apple ecosystem.",
+          "text": "Unmatched distribution and polished on-device UX for consumers within the Apple ecosystem.",
           "sources": [{ "label": "Apple — Apple Intelligence", "url": "https://www.apple.com/apple-intelligence/" }]
         }
       ],
       "cons": [
         {
-          "text": "Not a general-purpose programmable agent finance layer — extensibility and rails are platform-governed.",
+          "text": "Closed ecosystem with minimal developer extensibility. Only Apple's own models. No cross-platform story.",
           "sources": [{ "label": "Apple legal / privacy", "url": "https://www.apple.com/legal/privacy/" }]
         }
       ],
-      "lastReviewed": "2026-04-07"
+      "lastReviewed": "2026-04-10"
     }
   ]
 }

@@ -1,208 +1,410 @@
+/* ------------------------------------------------------------------ */
+/*  Two-category comparison: SDKs/Frameworks  vs  Desktop Apps        */
+/* ------------------------------------------------------------------ */
+
+export type ComparisonCategory = "sdk" | "app";
+
+/* ---- generic row (matrix card) ----------------------------------- */
+
 export type StackRow = {
-  id: "qvac" | "openai" | "ollama" | "lmstudio" | "apple" | "bittensor";
+  id: string;
   name: string;
   tagline: string;
-  model: string;
-  privacy: string;
-  payments: string;
-  infra: string;
-  censorship: string;
+  description: string;
+  note?: string;
   accent: string;
 };
 
-/** Multi-competitor stack comparison for local AI landscape. */
-export const comparisonRows: StackRow[] = [
+/* ==================================================================
+   SECTION A — SDKs & Frameworks
+   ================================================================== */
+
+export type SdkId =
+  | "qvac-sdk"
+  | "ollama"
+  | "llamacpp"
+  | "mlx"
+  | "localai"
+  | "vllm";
+
+export const sdkRows: (StackRow & { id: SdkId })[] = [
   {
-    id: "qvac",
-    name: "QVAC (Tether)",
-    tagline: "Local-first · product suite · programmable agent value",
-    model: "Agents and models on-device; Workbench + vertical apps",
-    privacy: "Data and inference in a controlled perimeter (local / Tether-shaped policy)",
-    payments: "Machine-to-machine settlement when the program needs programmable liquidity between agents",
-    infra: "Tether AI division spanning models, apps, and rails you can sequence on one roadmap",
-    censorship: "No cloud-only gatekeeper as default; per-vertical policy to define",
+    id: "qvac-sdk",
+    name: "QVAC SDK (Tether)",
+    tagline: "On-device inference SDK · agent primitives · Tether-backed",
+    description:
+      "Tether's SDK for building local AI applications — models, agents, and value rails on consumer devices.",
     accent: "qvac",
-  },
-  {
-    id: "openai",
-    name: "OpenAI Cloud",
-    tagline: "Hosted API · subscriptions · vendor telemetry",
-    model: "Closed API + usage billing",
-    privacy: "Prompts and logs in vendor cloud — not local-first",
-    payments: "Card / invoice — no first-class programmable agent-to-agent settlement rail",
-    infra: "Hyperscaler regions, shared capacity",
-    censorship: "High platform policy and safety surface area",
-    accent: "openai",
   },
   {
     id: "ollama",
     name: "Ollama",
-    tagline: "Local OSS · downloadable models · DIY",
-    model: "Open runtime for local inference",
-    privacy: "Strong local control; compliance hardening is on your team",
-    payments: "No integrated machine-economy micropayment layer",
-    infra: "User hardware / self-managed servers",
-    censorship: "Minimal centralized policy; operational responsibility in-house",
+    tagline: "One-command local LLM runtime · OpenAI-compatible API",
+    description:
+      "Open-source CLI/runtime that downloads and serves LLMs locally. Powers many downstream tools and integrations.",
     accent: "ollama",
   },
   {
-    id: "lmstudio",
-    name: "LM Studio",
-    tagline: "Desktop-first · local GUI · model explorer",
-    model: "Local runtime with UI and localhost serving",
-    privacy: "Strong local handling for experimentation and eval loops",
-    payments: "No native programmable value rail by default",
-    infra: "Single-node desktop workflow, fast to evaluate many models",
-    censorship: "Tool-level policy light; governance is mostly up to operator",
-    accent: "lmstudio",
+    id: "llamacpp",
+    name: "llama.cpp",
+    tagline: "C/C++ inference engine · the foundation layer",
+    description:
+      "Minimal-dependency C/C++ LLM inference. The engine underneath Ollama, LM Studio, and many others. GGUF format, broad hardware.",
+    accent: "llamacpp",
   },
   {
-    id: "apple",
-    name: "Apple Intelligence",
-    tagline: "OS-integrated · consumer-scale · hybrid local/cloud",
-    model: "On-device plus selective cloud augmentation in Apple stack",
-    privacy: "Strong consumer privacy messaging with platform guardrails",
-    payments: "No generalized agent-to-agent settlement layer",
-    infra: "Tight integration with Apple hardware and operating systems",
-    censorship: "Platform-governed policies and extension boundaries",
-    accent: "apple",
+    id: "mlx",
+    name: "MLX (Apple)",
+    tagline: "Apple Silicon ML framework · unified memory · Neural Accelerators",
+    description:
+      "Apple's open-source array framework for ML on Apple Silicon. Python, C++, and Swift APIs optimized for unified memory.",
+    accent: "mlx",
   },
   {
-    id: "bittensor",
-    name: "Bittensor",
-    tagline: "Open network · subnet incentives · TAO economics",
-    model: "Distributed incentive market for machine intelligence",
-    privacy: "Pseudonymous network dynamics with varied node practices",
-    payments: "Token-native rewards and market-based incentives",
-    infra: "Network-level architecture rather than single product suite",
-    censorship: "Protocol-level openness with integration complexity",
-    accent: "bittensor",
+    id: "localai",
+    name: "LocalAI",
+    tagline: "All-in-one OSS AI engine · 35+ backends · drop-in API",
+    description:
+      "Go-based engine supporting LLMs, vision, voice, image, and video — no GPU required. OpenAI and Anthropic API compatible.",
+    accent: "localai",
+  },
+  {
+    id: "vllm",
+    name: "vLLM",
+    tagline: "High-throughput inference · PagedAttention · production-grade",
+    description:
+      "Fast Python inference/serving library. Industry standard for GPU production workloads; Apple Silicon support via vllm-metal plugin.",
+    note: "Primarily designed for production GPU servers. Consumer-device use is possible but not the primary target.",
+    accent: "vllm",
   },
 ];
 
-export type RadarSeriesKey = "QVAC" | "OpenAI" | "Ollama" | "LMStudio" | "Apple" | "Bittensor";
+export type SdkRadarKey =
+  | "QVAC_SDK"
+  | "Ollama"
+  | "LlamaCpp"
+  | "MLX"
+  | "LocalAI"
+  | "vLLM";
 
-export const radarSeries: { key: RadarSeriesKey; label: string; color: string; fillOpacity: number }[] = [
-  { key: "QVAC", label: "QVAC", color: "#34d399", fillOpacity: 0.22 },
-  { key: "OpenAI", label: "OpenAI", color: "#38bdf8", fillOpacity: 0.12 },
+export const sdkRadarSeries: {
+  key: SdkRadarKey;
+  label: string;
+  color: string;
+  fillOpacity: number;
+}[] = [
+  { key: "QVAC_SDK", label: "QVAC SDK", color: "#34d399", fillOpacity: 0.22 },
   { key: "Ollama", label: "Ollama", color: "#e879f9", fillOpacity: 0.14 },
-  { key: "LMStudio", label: "LM Studio", color: "#f59e0b", fillOpacity: 0.12 },
-  { key: "Apple", label: "Apple Intelligence", color: "#a3a3a3", fillOpacity: 0.1 },
-  { key: "Bittensor", label: "Bittensor", color: "#22c55e", fillOpacity: 0.1 },
+  { key: "LlamaCpp", label: "llama.cpp", color: "#f59e0b", fillOpacity: 0.12 },
+  { key: "MLX", label: "MLX", color: "#a3a3a3", fillOpacity: 0.12 },
+  { key: "LocalAI", label: "LocalAI", color: "#38bdf8", fillOpacity: 0.12 },
+  { key: "vLLM", label: "vLLM", color: "#fb923c", fillOpacity: 0.1 },
 ];
 
-export const rowToSeriesKey: Record<StackRow["id"], RadarSeriesKey> = {
-  qvac: "QVAC",
-  openai: "OpenAI",
+export const sdkIdToRadarKey: Record<SdkId, SdkRadarKey> = {
+  "qvac-sdk": "QVAC_SDK",
   ollama: "Ollama",
-  lmstudio: "LMStudio",
-  apple: "Apple",
-  bittensor: "Bittensor",
+  llamacpp: "LlamaCpp",
+  mlx: "MLX",
+  localai: "LocalAI",
+  vllm: "vLLM",
 };
 
-/** Routes matrix rows to entity dossier slugs (some differ from internal ids). */
-export const stackIdToEntitySlug: Record<StackRow["id"], string> = {
-  qvac: "qvac",
-  openai: "openai",
+export const sdkIdToEntitySlug: Record<SdkId, string> = {
+  "qvac-sdk": "qvac-sdk",
   ollama: "ollama",
-  lmstudio: "lm-studio",
-  apple: "apple-intelligence",
-  bittensor: "bittensor",
+  llamacpp: "llamacpp",
+  mlx: "mlx",
+  localai: "localai",
+  vllm: "vllm",
 };
 
-export type RadarMetric = {
-  metric: string;
-} & Record<RadarSeriesKey, number>;
+export type SdkRadarMetric = { metric: string } & Record<SdkRadarKey, number>;
 
-/** 0–100 illustrative scores for comparative readability. */
-export const radarMetrics: RadarMetric[] = [
+export const sdkRadarMetrics: SdkRadarMetric[] = [
   {
-    metric: "Local-first",
-    QVAC: 93,
-    OpenAI: 12,
-    Ollama: 91,
-    LMStudio: 86,
-    Apple: 78,
-    Bittensor: 62,
+    metric: "On-device perf",
+    QVAC_SDK: 80,
+    Ollama: 78,
+    LlamaCpp: 95,
+    MLX: 92,
+    LocalAI: 72,
+    vLLM: 86,
   },
   {
-    metric: "Data privacy",
-    QVAC: 90,
-    OpenAI: 18,
-    Ollama: 86,
-    LMStudio: 79,
-    Apple: 80,
-    Bittensor: 71,
+    metric: "Hardware breadth",
+    QVAC_SDK: 72,
+    Ollama: 82,
+    LlamaCpp: 96,
+    MLX: 22,
+    LocalAI: 88,
+    vLLM: 78,
   },
   {
-    metric: "Product suite",
-    QVAC: 84,
-    OpenAI: 95,
-    Ollama: 44,
-    LMStudio: 58,
-    Apple: 90,
-    Bittensor: 42,
+    metric: "API maturity",
+    QVAC_SDK: 62,
+    Ollama: 90,
+    LlamaCpp: 70,
+    MLX: 65,
+    LocalAI: 92,
+    vLLM: 90,
   },
   {
-    metric: "Open stack",
-    QVAC: 68,
-    OpenAI: 14,
+    metric: "Ecosystem",
+    QVAC_SDK: 40,
+    Ollama: 94,
+    LlamaCpp: 88,
+    MLX: 58,
+    LocalAI: 76,
+    vLLM: 82,
+  },
+  {
+    metric: "Setup simplicity",
+    QVAC_SDK: 74,
     Ollama: 96,
-    LMStudio: 72,
-    Apple: 22,
-    Bittensor: 88,
+    LlamaCpp: 40,
+    MLX: 78,
+    LocalAI: 68,
+    vLLM: 35,
   },
   {
-    metric: "Programmable value",
-    QVAC: 81,
-    OpenAI: 22,
-    Ollama: 28,
-    LMStudio: 24,
-    Apple: 18,
-    Bittensor: 86,
+    metric: "Backing",
+    QVAC_SDK: 95,
+    Ollama: 55,
+    LlamaCpp: 62,
+    MLX: 98,
+    LocalAI: 40,
+    vLLM: 78,
   },
 ];
+
+/* ---- computed SDK scores ----------------------------------------- */
+
+function computeMean(
+  metrics: { metric: string; [k: string]: number | string }[],
+  key: string,
+): number {
+  const sum = metrics.reduce((acc, m) => acc + (m[key] as number), 0);
+  return Number((sum / metrics.length).toFixed(1));
+}
 
 export type OverallScore = {
-  key: RadarSeriesKey;
+  key: string;
   label: string;
   color: string;
   score: number;
 };
 
-function computeOverall(key: RadarSeriesKey): number {
-  const sum = radarMetrics.reduce((acc, m) => acc + m[key], 0);
-  return Number((sum / radarMetrics.length).toFixed(1));
-}
-
-export const overallScores: OverallScore[] = radarSeries
+export const sdkOverallScores: OverallScore[] = sdkRadarSeries
   .map((s) => ({
     key: s.key,
     label: s.label,
     color: s.color,
-    score: computeOverall(s.key),
+    score: computeMean(sdkRadarMetrics, s.key),
   }))
   .sort((a, b) => b.score - a.score);
 
-export const overallScoreBySeriesKey: Record<RadarSeriesKey, number> = overallScores.reduce(
-  (acc, s) => ({ ...acc, [s.key]: s.score }),
-  {} as Record<RadarSeriesKey, number>,
+export const sdkOverallByKey: Record<string, number> = Object.fromEntries(
+  sdkOverallScores.map((s) => [s.key, s.score]),
 );
 
-export const radarSeriesSorted = [...overallScores];
+export const sdkSeriesSorted = [...sdkOverallScores];
 
-export const comparisonRowsSorted = [...comparisonRows].sort(
-  (a, b) => overallScoreBySeriesKey[rowToSeriesKey[b.id]] - overallScoreBySeriesKey[rowToSeriesKey[a.id]],
+export const sdkRowsSorted = [...sdkRows].sort(
+  (a, b) =>
+    (sdkOverallByKey[sdkIdToRadarKey[b.id]] ?? 0) -
+    (sdkOverallByKey[sdkIdToRadarKey[a.id]] ?? 0),
 );
+
+/* ==================================================================
+   SECTION B — Desktop Apps
+   ================================================================== */
+
+export type AppId =
+  | "qvac-workbench"
+  | "lmstudio"
+  | "jan"
+  | "osaurus"
+  | "apple";
+
+export const appRows: (StackRow & { id: AppId })[] = [
+  {
+    id: "qvac-workbench",
+    name: "QVAC Workbench (Tether)",
+    tagline: "Local AI desktop app · vertical apps · agent workflows",
+    description:
+      "Tether's end-user AI application — Workbench plus vertical apps (Health, Translate) with on-device inference and data sovereignty.",
+    accent: "qvac",
+  },
+  {
+    id: "lmstudio",
+    name: "LM Studio",
+    tagline: "Desktop-first · model browser · localhost API",
+    description:
+      "Polished GUI for downloading, evaluating, and serving LLMs locally. Closed-source, free for personal use. Mac/Win/Linux.",
+    accent: "lmstudio",
+  },
+  {
+    id: "jan",
+    name: "Jan",
+    tagline: "Open-source ChatGPT replacement · agents · CLI",
+    description:
+      "Apache 2.0 desktop app with built-in models, agents, and OpenAI-compatible API. Mac/Win/Linux. 5M+ downloads.",
+    accent: "jan",
+  },
+  {
+    id: "osaurus",
+    name: "Osaurus",
+    tagline: "Native macOS AI harness · agents · memory · identity",
+    description:
+      "Swift-native macOS app for local AI. Agents with persistent memory, crypto identity, MCP server, 20+ plugins. MIT licensed.",
+    accent: "osaurus",
+  },
+  {
+    id: "apple",
+    name: "Apple Intelligence",
+    tagline: "OS-integrated · consumer-scale · hybrid local/cloud",
+    description:
+      "On-device models plus selective Private Cloud Compute. Tight Apple hardware integration, platform-governed policies.",
+    accent: "apple",
+  },
+];
+
+export type AppRadarKey =
+  | "QVAC_WB"
+  | "LMStudio"
+  | "Jan"
+  | "Osaurus"
+  | "Apple";
+
+export const appRadarSeries: {
+  key: AppRadarKey;
+  label: string;
+  color: string;
+  fillOpacity: number;
+}[] = [
+  {
+    key: "QVAC_WB",
+    label: "QVAC Workbench",
+    color: "#34d399",
+    fillOpacity: 0.22,
+  },
+  {
+    key: "LMStudio",
+    label: "LM Studio",
+    color: "#f59e0b",
+    fillOpacity: 0.12,
+  },
+  { key: "Jan", label: "Jan", color: "#e879f9", fillOpacity: 0.14 },
+  { key: "Osaurus", label: "Osaurus", color: "#38bdf8", fillOpacity: 0.12 },
+  {
+    key: "Apple",
+    label: "Apple Intelligence",
+    color: "#a3a3a3",
+    fillOpacity: 0.1,
+  },
+];
+
+export const appIdToRadarKey: Record<AppId, AppRadarKey> = {
+  "qvac-workbench": "QVAC_WB",
+  lmstudio: "LMStudio",
+  jan: "Jan",
+  osaurus: "Osaurus",
+  apple: "Apple",
+};
+
+export const appIdToEntitySlug: Record<AppId, string> = {
+  "qvac-workbench": "qvac-workbench",
+  lmstudio: "lm-studio",
+  jan: "jan",
+  osaurus: "osaurus",
+  apple: "apple-intelligence",
+};
+
+export type AppRadarMetric = { metric: string } & Record<AppRadarKey, number>;
+
+export const appRadarMetrics: AppRadarMetric[] = [
+  {
+    metric: "Privacy & offline",
+    QVAC_WB: 92,
+    LMStudio: 88,
+    Jan: 86,
+    Osaurus: 95,
+    Apple: 82,
+  },
+  {
+    metric: "UX & polish",
+    QVAC_WB: 74,
+    LMStudio: 92,
+    Jan: 78,
+    Osaurus: 86,
+    Apple: 96,
+  },
+  {
+    metric: "Model library",
+    QVAC_WB: 62,
+    LMStudio: 94,
+    Jan: 82,
+    Osaurus: 70,
+    Apple: 30,
+  },
+  {
+    metric: "Extensibility",
+    QVAC_WB: 72,
+    LMStudio: 52,
+    Jan: 84,
+    Osaurus: 92,
+    Apple: 38,
+  },
+  {
+    metric: "Platform breadth",
+    QVAC_WB: 65,
+    LMStudio: 86,
+    Jan: 90,
+    Osaurus: 18,
+    Apple: 35,
+  },
+  {
+    metric: "Backing",
+    QVAC_WB: 95,
+    LMStudio: 55,
+    Jan: 48,
+    Osaurus: 32,
+    Apple: 98,
+  },
+];
+
+/* ---- computed App scores ----------------------------------------- */
+
+export const appOverallScores: OverallScore[] = appRadarSeries
+  .map((s) => ({
+    key: s.key,
+    label: s.label,
+    color: s.color,
+    score: computeMean(appRadarMetrics, s.key),
+  }))
+  .sort((a, b) => b.score - a.score);
+
+export const appOverallByKey: Record<string, number> = Object.fromEntries(
+  appOverallScores.map((s) => [s.key, s.score]),
+);
+
+export const appSeriesSorted = [...appOverallScores];
+
+export const appRowsSorted = [...appRows].sort(
+  (a, b) =>
+    (appOverallByKey[appIdToRadarKey[b.id]] ?? 0) -
+    (appOverallByKey[appIdToRadarKey[a.id]] ?? 0),
+);
+
+/* ---- ticker (unchanged) ------------------------------------------ */
 
 const tickerPool = [
   "EdgeAgent: Workbench-only inference — 0 tokens to cloud (sim)",
   "Fleet_2: on-device embedding batch; local policy hash OK",
   "CoderTwin: 120 tok/s on dedicated GPU — no vendor round-trip",
   "VoiceFlow: local diarization; transcript never leaves perimeter",
-  "Future scenario: bot A → bot B 0.004 USDT for tool-call slice (sim)",
   "ResearchAgent: offline RAG; encrypted doc sync",
-  "TraderBot: on-prem signals; USDT settlement sandbox only",
   "ComplianceTwin: local audit trail; export on demand (sim)",
 ];
 

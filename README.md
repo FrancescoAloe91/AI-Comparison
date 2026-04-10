@@ -14,9 +14,9 @@
 
 ## What it shows
 
-- **Thesis block** — framing for QVAC (Tether) vs cloud APIs, OSS runtimes, desktop tools, OS bundles, and incentive networks.
-- **Radar + legend** — five normalized axes (0–100) and composite ranking.
-- **Matrix** — short operational snapshot per stack with links to **full dossiers**.
+- **Thesis block** — framing for two categories: SDKs/frameworks (QVAC SDK, Ollama, llama.cpp, MLX, LocalAI, vLLM) and desktop apps (QVAC Workbench, LM Studio, Jan, Osaurus, Apple Intelligence).
+- **Radar + legend** — six normalized axes (0-100) per category and composite ranking.
+- **Matrix** — short operational snapshot per entry with links to **full dossiers**.
 - **Simulator** (`/simulator`) — UX-only flow lab: tags drive a P2P-style animation; no chain, no real payments.
 - **Sources** — curated link-outs; optional RSS refresh via GitHub Actions (`scripts/fetch-rss.mjs`).
 
@@ -26,8 +26,8 @@ Company and product names are used for **comparative illustration** only.
 
 ## Why this exists (thesis)
 
-- Autonomous agents need **fast, machine-sized settlement** — card rails and monthly SaaS billing are a poor fit; **stablecoins** (e.g. USDT in the narrative) are framed as a plausible **“gas” layer** for agent-to-agent value.
-- **Contrast** matters: a **local-first, programmable-value** story sits next to **centralized APIs** and **decentralized incentive networks** so trade-offs read at a glance.
+- The local AI space has **two distinct layers**: SDKs/frameworks for developers and desktop apps for end-users. Mixing them hides the real trade-offs.
+- **Contrast** matters: a **Tether-backed local-first** story (QVAC) sits next to **community OSS runtimes** and **independent desktop apps** so trade-offs read at a glance.
 
 ---
 
@@ -59,11 +59,11 @@ npx vercel@latest
 npx vercel@latest --prod
 ```
 
-### GitHub → Vercel (continuous deployment)
+### GitHub to Vercel (continuous deployment)
 
 1. Push this repository to GitHub (`main`).
-2. [Vercel → New Project](https://vercel.com/new) → import the repo → framework **Next.js**, root **repository root**.
-3. Optional: **Settings → Git** on Vercel to confirm automatic builds on push.
+2. [Vercel - New Project](https://vercel.com/new) - import the repo - framework **Next.js**, root **repository root**.
+3. Optional: **Settings - Git** on Vercel to confirm automatic builds on push.
 
 ### Push to GitHub (if you clone fresh)
 
@@ -76,15 +76,15 @@ git push -u origin main
 
 ## GitHub repository settings (optional)
 
-Paste these into **github.com → your repo → ⚙ Settings → General** (or edit on the repo main page via the gear / “About”):
+Paste these into **github.com - your repo - Settings - General** (or edit on the repo main page via the gear / "About"):
 
 **Description (short, ~350 characters max):**
 
-> Interactive comparison lens for local-first AI stacks (QVAC vs cloud, OSS, desktop, OS, incentives). Next.js app with radar, matrix, dossiers, and a UX-only agent-flow simulator. Live: https://ai-comparison-lx2e.vercel.app/
+> Local AI comparison lens in two categories: SDKs & frameworks vs desktop apps. Next.js app with radar, matrix, dossiers, and a UX-only agent-flow simulator. Live: https://ai-comparison-lx2e.vercel.app/
 
 **Topics / tags (suggested):**
 
-`nextjs` `react` `vercel` `tailwindcss` `local-ai` `ai-comparison` `tether` `qvac` `stablecoins` `dashboard`
+`nextjs` `react` `vercel` `tailwindcss` `local-ai` `ai-comparison` `tether` `qvac` `dashboard`
 
 **Website (homepage field):**
 

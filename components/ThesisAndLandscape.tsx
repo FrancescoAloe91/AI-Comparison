@@ -1,4 +1,4 @@
-import { Activity, ArrowRight, Cpu, Shield, Sparkles } from "lucide-react";
+import { Activity, ArrowRight, Cpu, Layers, Shield, Sparkles } from "lucide-react";
 import Link from "next/link";
 
 export function ThesisAndLandscape() {
@@ -18,21 +18,24 @@ export function ThesisAndLandscape() {
               </p>
               <h1 className="text-balance text-2xl font-semibold tracking-tight text-white sm:text-3xl">
                 <span className="bg-gradient-to-r from-cyan-200 via-emerald-200 to-fuchsia-200 bg-clip-text text-transparent">
-                  Local-first AI stacks
+                  Local-first AI
                 </span>{" "}
                 — comparative lens
               </h1>
               <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-400">
-                This page benchmarks six stacks—QVAC (Tether), OpenAI, Ollama, LM Studio, Apple Intelligence, and
-                Bittensor—on five normalized dimensions (0–100). The radar shows each profile; the legend ranks
-                composite scores; the matrix adds a concise operational snapshot per stack. Scores are illustrative for
-                relative positioning, not a third-party certification. Per-entity dossiers carry sourcing, caveats, and
-                deeper narrative.
+                This page compares the local AI landscape in two categories that
+                match how the market actually works:{" "}
+                <strong className="text-zinc-300">SDKs &amp; frameworks</strong>{" "}
+                for developers building with local inference, and{" "}
+                <strong className="text-zinc-300">desktop apps</strong> for
+                end-users running models on their own hardware. Each category
+                has its own radar, axes, and matrix — so you&apos;re always
+                comparing apples to apples.
               </p>
               <div className="mt-3 flex flex-wrap gap-2 text-[11px] text-zinc-400">
                 <span className="rounded-full border border-white/10 bg-white/[0.03] px-2.5 py-1">0–100 scale</span>
                 <span className="rounded-full border border-white/10 bg-white/[0.03] px-2.5 py-1">
-                  Overall = mean of five axes
+                  Overall = mean of six axes
                 </span>
                 <span className="rounded-full border border-white/10 bg-white/[0.03] px-2.5 py-1">
                   Illustrative dataset
@@ -43,9 +46,10 @@ export function ThesisAndLandscape() {
             <div className="lg:col-span-5">
               <div className="grid gap-2 sm:grid-cols-3 lg:grid-cols-1">
                 {[
-                  { icon: Cpu, t: "Profile", s: "Radar maps the five-axis trade-off surface." },
-                  { icon: Shield, t: "Composite", s: "Legend orders stacks by overall score." },
-                  { icon: Sparkles, t: "Context", s: "Matrix adds one operational line per stack." },
+                  { icon: Layers, t: "Two categories", s: "SDKs/frameworks and desktop apps — compared separately." },
+                  { icon: Cpu, t: "Profile", s: "Radar maps the six-axis trade-off surface per category." },
+                  { icon: Shield, t: "Backing", s: "Each entry shows who's behind it — corporate, community, or indie." },
+                  { icon: Sparkles, t: "Context", s: "Matrix adds one operational snapshot per entry + dossier link." },
                 ].map(({ icon: Icon, t, s }) => (
                   <div key={t} className="rounded-xl border border-white/10 bg-white/[0.04] px-3 py-2 backdrop-blur-sm">
                     <Icon className="size-4 text-cyan-400/90" strokeWidth={1.25} aria-hidden />

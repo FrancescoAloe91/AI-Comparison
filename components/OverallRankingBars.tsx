@@ -1,14 +1,19 @@
 "use client";
 
-import { overallScores } from "@/data/mock2026";
+import type { ComparisonCategory, OverallScore } from "@/data/mock2026";
+import { sdkOverallScores, appOverallScores } from "@/data/mock2026";
 
-export function OverallRankingBars() {
+type Props = { category?: ComparisonCategory };
+
+export function OverallRankingBars({ category = "sdk" }: Props) {
+  const scores: OverallScore[] = category === "sdk" ? sdkOverallScores : appOverallScores;
+
   return (
     <section className="min-w-0">
       <h3 className="text-sm font-semibold uppercase tracking-[0.15em] text-zinc-500">Overall ranking</h3>
       <div className="radar-panel relative z-0 mt-3 rounded-2xl border border-white/10 p-4">
         <div className="relative z-10 space-y-3.5">
-          {overallScores.map((row, idx) => (
+          {scores.map((row, idx) => (
             <div key={row.key}>
               <div className="mb-1.5 flex items-center justify-between gap-2 text-xs">
                 <div className="flex min-w-0 items-center gap-2">

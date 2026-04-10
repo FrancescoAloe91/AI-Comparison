@@ -1,22 +1,43 @@
 "use client";
 
-import { overallScoreBySeriesKey, radarMetrics, radarSeries, radarSeriesSorted } from "@/data/mock2026";
-import type { RadarSeriesKey } from "@/data/mock2026";
-import { Legend, PolarAngleAxis, PolarGrid, PolarRadiusAxis, Radar, RadarChart, ResponsiveContainer, Tooltip } from "recharts";
+import type { ComparisonCategory } from "@/data/mock2026";
+import {
+  sdkRadarMetrics,
+  sdkRadarSeries,
+  sdkSeriesSorted,
+  sdkOverallByKey,
+  appRadarMetrics,
+  appRadarSeries,
+  appSeriesSorted,
+  appOverallByKey,
+} from "@/data/mock2026";
+import {
+  Legend,
+  PolarAngleAxis,
+  PolarGrid,
+  PolarRadiusAxis,
+  Radar,
+  RadarChart,
+  ResponsiveContainer,
+  Tooltip,
+} from "recharts";
 
-const chartData = radarMetrics;
+type Props = { variant?: "full" | "split"; category?: ComparisonCategory };
 
-const fillFor = (key: RadarSeriesKey, split: boolean) => {
-  const base = radarSeries.find((r) => r.key === key)?.fillOpacity ?? 0.14;
-  if (!split) return base;
-  return Math.min(0.24, base * 1.2);
-};
-
-type Props = { variant?: "full" | "split" };
-
-export function RadarComparison({ variant = "full" }: Props) {
+export function RadarComparison({ variant = "full", category = "sdk" }: Props) {
   const split = variant === "split";
   const chartHeight = split ? 430 : 560;
+
+  const chartData = category === "sdk" ? sdkRadarMetrics : appRadarMetrics;
+  const series = category === "sdk" ? sdkRadarSeries : appRadarSeries;
+  const sorted = category === "sdk" ? sdkSeriesSorted : appSeriesSorted;
+  const overallByKey = category === "sdk" ? sdkOverallByKey : appOverallByKey;
+
+  const fillFor = (key: string) => {
+    const base = series.find((r) => r.key === key)?.fillOpacity ?? 0.14;
+    if (!split) return base;
+    return Math.min(0.24, base * 1.2);
+  };
 
   const inner = (
     <>
@@ -24,7 +45,7 @@ export function RadarComparison({ variant = "full" }: Props) {
         <>
           <h2 className="text-2xl font-semibold tracking-tight text-white sm:text-3xl">Multi-axis radar</h2>
           <p className="mt-3 max-w-2xl text-zinc-500">
-            Same five dimensions for every stack. Overall score is the simple mean of the five axes on a 0–100 scale.
+            Same six dimensions for every entry. Overall score is the simple mean on a 0–100 scale.
           </p>
         </>
       )}
@@ -43,7 +64,7 @@ export function RadarComparison({ variant = "full" }: Props) {
                 margin={{ top: 12, right: 12, bottom: split ? 6 : 24, left: 12 }}
               >
                 <PolarGrid stroke="rgba(255,255,255,0.12)" radialLines strokeDasharray="0" />
-                <PolarAngleAxis dataKey="metric" tick={{ fill: "#a1a1aa", fontSize: split ? 11 : 11 }} tickLine={false} />
+                <PolarAngleAxis dataKey="metric" tick={{ fill: "#a1a1aa", fontSize: 11 }} tickLine={false} />
                 <PolarRadiusAxis
                   angle={30}
                   domain={[0, 100]}
@@ -51,14 +72,14 @@ export function RadarComparison({ variant = "full" }: Props) {
                   tickCount={6}
                   stroke="rgba(255,255,255,0.08)"
                 />
-                {radarSeriesSorted.map((s, idx) => (
+                {sorted.map((s, idx) => (
                   <Radar
                     key={s.key}
                     name={s.label}
                     dataKey={s.key}
                     stroke={s.color}
                     fill={s.color}
-                    fillOpacity={fillFor(s.key, split)}
+                    fillOpacity={fillFor(s.key)}
                     strokeWidth={idx === 0 ? 3 : idx < 3 ? 2.4 : 1.8}
                     strokeOpacity={idx === 0 ? 1 : 0.9}
                     dot={{ r: split ? 2.7 : 3.2, fill: s.color, strokeWidth: 0 }}
@@ -94,8 +115,8 @@ export function RadarComparison({ variant = "full" }: Props) {
           {split && (
             <div className="relative z-10 flex flex-col justify-center gap-2 lg:pl-1">
               <p className="text-[10px] font-medium uppercase tracking-[0.12em] text-zinc-500">Overall ranking (0-100)</p>
-              {radarSeriesSorted.map((s, idx) => {
-                const score = overallScoreBySeriesKey[s.key];
+              {sorted.map((s, idx) => {
+                const score = overallByKey[s.key] ?? 0;
                 return (
                   <div
                     key={`legend-${s.key}`}
@@ -136,15 +157,12 @@ export function RadarComparison({ variant = "full" }: Props) {
 
         {split && (
           <div className="relative z-10 mt-3 flex flex-wrap justify-center gap-x-3 gap-y-1 border-t border-white/10 pt-2.5 text-[10px] text-zinc-500">
-            <span>Local-first</span>
-            <span className="text-zinc-700">·</span>
-            <span>Data privacy</span>
-            <span className="text-zinc-700">·</span>
-            <span>Product suite</span>
-            <span className="text-zinc-700">·</span>
-            <span>Open stack</span>
-            <span className="text-zinc-700">·</span>
-            <span>Programmable value</span>
+            {chartData.map((m, i) => (
+              <span key={m.metric}>
+                {i > 0 && <span className="mr-3 text-zinc-700">·</span>}
+                {m.metric}
+              </span>
+            ))}
           </div>
         )}
       </div>
