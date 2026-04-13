@@ -1,52 +1,258 @@
 {
-  "lastFetched": "2026-04-10",
+  "lastFetched": "2026-04-13",
   "items": [
     {
-      "id": "n-qvac-site",
-      "title": "QVAC — local AI (official site)",
-      "url": "https://qvac.tether.io/",
-      "publishedAt": "2026-04-01",
-      "entitySlugs": ["qvac-sdk", "qvac-workbench"],
-      "sourceName": "QVAC"
+      "id": "rss-67d86bae7435",
+      "title": "Strategy signals another bitcoin buy as company needs just 2% annual BTC growth to cover dividends",
+      "url": "https://www.coindesk.com/markets/2026/04/13/strategy-signals-another-bitcoin-buy-as-company-needs-just-2-annual-btc-growth-to-cover-dividends",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
     },
     {
-      "id": "n-qvac-news",
-      "title": "Tether — news & announcements",
-      "url": "https://tether.io/news/",
-      "publishedAt": "2026-03-28",
-      "entitySlugs": ["qvac-sdk", "qvac-workbench"],
-      "sourceName": "Tether"
+      "id": "rss-b1204fa3bafc",
+      "title": "Bitcoin hits a wall – the chart just challenged the $88,000 bull case",
+      "url": "https://www.coindesk.com/markets/2026/04/13/bitcoin-hits-a-wall-the-chart-just-delayed-the-bull-case",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
     },
     {
-      "id": "n-ollama",
-      "title": "Ollama — run LLMs locally",
-      "url": "https://ollama.com/",
-      "publishedAt": "2026-03-18",
-      "entitySlugs": ["ollama"],
-      "sourceName": "Ollama"
+      "id": "rss-0df10b06d7b8",
+      "title": "WLFI threatens legal action against Justin Sun after he accuses Trump-linked project of deceptive DeFi deals",
+      "url": "https://www.coindesk.com/markets/2026/04/13/see-you-in-court-wlfi-threatens-justin-sun-as-feud-over-usd75-million-defi-loan-escalates",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
     },
     {
-      "id": "n-ollama-mlx",
-      "title": "Ollama is now powered by MLX on Apple Silicon (preview)",
-      "url": "https://ollama.com/blog/mlx",
-      "publishedAt": "2026-03-30",
-      "entitySlugs": ["ollama", "mlx"],
-      "sourceName": "Ollama Blog"
+      "id": "rss-10db6614584a",
+      "title": "Aave passes landmark vote ending months-long fight over protocol revenue control",
+      "url": "https://www.coindesk.com/tech/2026/04/13/aave-passes-landmark-vote-ending-months-long-fight-over-who-controls-protocol-revenue",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-3c833c8a1655",
+      "title": "Alameda moves $16 million in Solana's SOL token for possible creditor distribution",
+      "url": "https://www.coindesk.com/markets/2026/04/13/alameda-moves-usd16-million-in-solana-s-sol-token-for-possible-creditor-distribution",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-32fb05c3f18a",
+      "title": "Attacker mints $1 billion Polkadot tokens on Ethereum, ends up stealing just $250,000",
+      "url": "https://www.coindesk.com/tech/2026/04/13/attacker-mints-usd1-billion-polkadot-tokens-on-ethereum-ends-up-stealing-just-usd250-000",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-6cb85f5b7b2f",
+      "title": "Bitcoin hit by $20 million-an-hour selling pressure above $70,000",
+      "url": "https://www.coindesk.com/markets/2026/04/13/bitcoin-hit-by-usd20-million-an-hour-selling-pressure-above-usd70-000",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-e2ad4546d048",
+      "title": "Clarity Act returns to U.S. Senate, bank earnings: Crypto Week Ahead",
+      "url": "https://www.coindesk.com/markets/2026/04/13/clarity-act-returns-to-u-s-senate-bank-earnings-crypto-week-ahead",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-e0761aa02b6c",
+      "title": "StarkWare cuts jobs in reorganization as Starknet revenue plunges 99% from peak",
+      "url": "https://www.coindesk.com/markets/2026/04/13/starkware-cuts-jobs-in-reorganization-as-starknet-revenue-plunges-99-from-peak",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-336547819b2f",
+      "title": "The one metric investors are overlooking in Michael Saylor’s Strategy",
+      "url": "https://www.coindesk.com/markets/2026/04/13/the-one-metric-investors-are-overlooking-in-michael-saylor-s-strategy",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-db2d5e549684",
+      "title": "Bank of Korea calls for stock-style circuit breakers on BTC exchanges",
+      "url": "https://www.coindesk.com/markets/2026/04/13/bank-of-korea-calls-for-stock-style-circuit-breakers-on-btc-exchanges",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-fcb721da0815",
+      "title": "Crypto markets stall as oil surges past $100 on Strait of Hormuz blockade",
+      "url": "https://www.coindesk.com/markets/2026/04/13/crypto-markets-stall-as-oil-surges-past-usd100-on-strait-of-hormuz-blockade",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-c06a17009479",
+      "title": "Bitcoin anchors near $70,000 as RAVE's 3,400% surge signals speculative froth",
+      "url": "https://www.coindesk.com/daybook-us/2026/04/13/bitcoin-anchors-near-usd70-000-as-rave-s-3-400-surge-signals-speculative-froth",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-10b909e688e6",
+      "title": "AI agents are set to power crypto payments, but a hidden flaw could expose wallets",
+      "url": "https://www.coindesk.com/tech/2026/04/13/ai-agents-are-set-to-power-crypto-payments-but-a-hidden-flaw-could-expose-wallets",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-2068ec589147",
+      "title": "CFTC Chair Mike Selig argues for agency's 'exclusive regulatory authority' in prediction markets fight: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/04/12/cftc-chair-mike-selig-argues-for-agency-s-exclusive-regulatory-authority-in-prediction-markets-fight-state-of-crypto",
+      "publishedAt": "2026-04-12",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
     },
     {
       "id": "n-llamacpp",
       "title": "llama.cpp — LLM inference in C/C++",
       "url": "https://github.com/ggml-org/llama.cpp",
       "publishedAt": "2026-04-09",
-      "entitySlugs": ["llamacpp"],
+      "entitySlugs": [
+        "llamacpp"
+      ],
       "sourceName": "GitHub"
+    },
+    {
+      "id": "n-vllm-metal",
+      "title": "vLLM Metal plugin — Apple Silicon via MLX",
+      "url": "https://github.com/vllm-project/vllm-metal",
+      "publishedAt": "2026-04-06",
+      "entitySlugs": [
+        "vllm",
+        "mlx"
+      ],
+      "sourceName": "GitHub"
+    },
+    {
+      "id": "n-vllm",
+      "title": "vLLM — high-throughput LLM serving",
+      "url": "https://vllm.ai/",
+      "publishedAt": "2026-04-03",
+      "entitySlugs": [
+        "vllm"
+      ],
+      "sourceName": "vLLM"
+    },
+    {
+      "id": "n-localai",
+      "title": "LocalAI — the open-source AI engine",
+      "url": "https://localai.io/",
+      "publishedAt": "2026-04-02",
+      "entitySlugs": [
+        "localai"
+      ],
+      "sourceName": "LocalAI"
+    },
+    {
+      "id": "n-qvac-site",
+      "title": "QVAC — local AI (official site)",
+      "url": "https://qvac.tether.io/",
+      "publishedAt": "2026-04-01",
+      "entitySlugs": [
+        "qvac-sdk",
+        "qvac-workbench"
+      ],
+      "sourceName": "QVAC"
+    },
+    {
+      "id": "n-osaurus",
+      "title": "Osaurus — own your AI (macOS)",
+      "url": "https://osaurus.ai/",
+      "publishedAt": "2026-03-31",
+      "entitySlugs": [
+        "osaurus"
+      ],
+      "sourceName": "Osaurus"
+    },
+    {
+      "id": "n-ollama-mlx",
+      "title": "Ollama is now powered by MLX on Apple Silicon (preview)",
+      "url": "https://ollama.com/blog/mlx",
+      "publishedAt": "2026-03-30",
+      "entitySlugs": [
+        "ollama",
+        "mlx"
+      ],
+      "sourceName": "Ollama Blog"
+    },
+    {
+      "id": "n-qvac-news",
+      "title": "Tether — news & announcements",
+      "url": "https://tether.io/news/",
+      "publishedAt": "2026-03-28",
+      "entitySlugs": [
+        "qvac-sdk",
+        "qvac-workbench"
+      ],
+      "sourceName": "Tether"
+    },
+    {
+      "id": "n-jan",
+      "title": "Jan — open-source ChatGPT replacement",
+      "url": "https://jan.ai/",
+      "publishedAt": "2026-03-23",
+      "entitySlugs": [
+        "jan"
+      ],
+      "sourceName": "Jan"
+    },
+    {
+      "id": "n-lm-studio",
+      "title": "LM Studio — local LLM desktop app",
+      "url": "https://lmstudio.ai/",
+      "publishedAt": "2026-03-22",
+      "entitySlugs": [
+        "lm-studio"
+      ],
+      "sourceName": "LM Studio"
+    },
+    {
+      "id": "n-ollama",
+      "title": "Ollama — run LLMs locally",
+      "url": "https://ollama.com/",
+      "publishedAt": "2026-03-18",
+      "entitySlugs": [
+        "ollama"
+      ],
+      "sourceName": "Ollama"
+    },
+    {
+      "id": "n-apple-intelligence",
+      "title": "Apple — Apple Intelligence overview",
+      "url": "https://www.apple.com/apple-intelligence/",
+      "publishedAt": "2026-03-12",
+      "entitySlugs": [
+        "apple-intelligence"
+      ],
+      "sourceName": "Apple"
     },
     {
       "id": "n-mlx",
       "title": "MLX — array framework for Apple Silicon",
       "url": "https://github.com/ml-explore/mlx",
       "publishedAt": "2026-03-12",
-      "entitySlugs": ["mlx"],
+      "entitySlugs": [
+        "mlx"
+      ],
       "sourceName": "GitHub"
     },
     {
@@ -54,64 +260,11 @@
       "title": "Exploring LLMs with MLX and Neural Accelerators on M5",
       "url": "https://machinelearning.apple.com/research/exploring-llms-mlx-m5",
       "publishedAt": "2025-11-19",
-      "entitySlugs": ["mlx", "apple-intelligence"],
+      "entitySlugs": [
+        "mlx",
+        "apple-intelligence"
+      ],
       "sourceName": "Apple ML Research"
-    },
-    {
-      "id": "n-localai",
-      "title": "LocalAI — the open-source AI engine",
-      "url": "https://localai.io/",
-      "publishedAt": "2026-04-02",
-      "entitySlugs": ["localai"],
-      "sourceName": "LocalAI"
-    },
-    {
-      "id": "n-vllm",
-      "title": "vLLM — high-throughput LLM serving",
-      "url": "https://vllm.ai/",
-      "publishedAt": "2026-04-03",
-      "entitySlugs": ["vllm"],
-      "sourceName": "vLLM"
-    },
-    {
-      "id": "n-vllm-metal",
-      "title": "vLLM Metal plugin — Apple Silicon via MLX",
-      "url": "https://github.com/vllm-project/vllm-metal",
-      "publishedAt": "2026-04-06",
-      "entitySlugs": ["vllm", "mlx"],
-      "sourceName": "GitHub"
-    },
-    {
-      "id": "n-lm-studio",
-      "title": "LM Studio — local LLM desktop app",
-      "url": "https://lmstudio.ai/",
-      "publishedAt": "2026-03-22",
-      "entitySlugs": ["lm-studio"],
-      "sourceName": "LM Studio"
-    },
-    {
-      "id": "n-jan",
-      "title": "Jan — open-source ChatGPT replacement",
-      "url": "https://jan.ai/",
-      "publishedAt": "2026-03-23",
-      "entitySlugs": ["jan"],
-      "sourceName": "Jan"
-    },
-    {
-      "id": "n-osaurus",
-      "title": "Osaurus — own your AI (macOS)",
-      "url": "https://osaurus.ai/",
-      "publishedAt": "2026-03-31",
-      "entitySlugs": ["osaurus"],
-      "sourceName": "Osaurus"
-    },
-    {
-      "id": "n-apple-intelligence",
-      "title": "Apple — Apple Intelligence overview",
-      "url": "https://www.apple.com/apple-intelligence/",
-      "publishedAt": "2026-03-12",
-      "entitySlugs": ["apple-intelligence"],
-      "sourceName": "Apple"
     }
   ]
 }
