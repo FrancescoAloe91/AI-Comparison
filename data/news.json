@@ -1,98 +1,138 @@
 {
-  "lastFetched": "2026-06-15",
+  "lastFetched": "2026-06-22",
   "items": [
     {
-      "id": "rss-3495f34e3f78",
-      "title": "Bitcoin shoots higher on Iran peace deal, with Strait of Hormuz set to open",
-      "url": "https://www.coindesk.com/markets/2026/06/14/bitcoin-shoots-higher-on-iran-deal-with-strait-of-hormuz-set-to-open",
+      "id": "rss-021c2d578397",
+      "title": "Bitcoin holds near $64,000 as US-Iran talks progress but crypto sits out the rally",
+      "url": "https://www.coindesk.com/markets/2026/06/22/bitcoin-holds-near-usd64-000-as-us-iran-talks-progress-but-crypto-sits-out-the-rally",
+      "publishedAt": "2026-06-22",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-12c5dc0c5d03",
+      "title": "XRP briefly loses $1.14 support before buyers drive sharp rebound",
+      "url": "https://www.coindesk.com/markets/2026/06/22/xrp-briefly-loses-usd1-14-support-before-buyers-drive-sharp-rebound",
+      "publishedAt": "2026-06-22",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-4620080bb233",
+      "title": "Ethereum validators asked to fund projects with up to 10% of staking rewards under new proposal",
+      "url": "https://www.coindesk.com/tech/2026/06/22/ethereum-validators-asked-to-fund-projects-with-up-to-10-of-staking-rewards-under-new-proposal",
+      "publishedAt": "2026-06-22",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-98f4f7dabf81",
+      "title": "Bitcoin developers want to fix the 'replace this transaction with a higher fee' button. Here's why",
+      "url": "https://www.coindesk.com/tech/2026/06/22/bitcoin-developers-want-to-fix-the-replace-this-transaction-with-a-higher-fee-button-here-s-why",
+      "publishedAt": "2026-06-22",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-75f5dcb1263f",
+      "title": "Live markets: Bitcoin bounces to $65,000; Saylor's Strategy adds cash, coins",
+      "url": "https://www.coindesk.com/tech/2026/06/22/live-markets-bitcoin-is-stuck-near-usd64-000-as-etf-outflows-reach-a-sixth-week",
+      "publishedAt": "2026-06-22",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-0b7af94c87a9",
+      "title": "Bitcoin price may be headed to $54,000, says analyst who forecast October's all-time high",
+      "url": "https://www.coindesk.com/markets/2026/06/22/bitcoin-price-may-be-headed-to-usd54-000-says-analyst-who-forecast-october-s-all-time-high",
+      "publishedAt": "2026-06-22",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-c9ae35d9a7a6",
+      "title": "Taiko halts its Ethereum layer-2 network after a bridge exploit, token dives",
+      "url": "https://www.coindesk.com/tech/2026/06/22/taiko-halts-its-ethereum-layer-2-network-after-a-bridge-exploit-token-dives-10",
+      "publishedAt": "2026-06-22",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-bd14f516c7e6",
+      "title": "Geopolitical relief meets the Warsh Fed: Crypto Week Ahead",
+      "url": "https://www.coindesk.com/markets/2026/06/22/geopolitical-relief-meets-the-warsh-fed-crypto-week-ahead",
+      "publishedAt": "2026-06-22",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-8ae0159a5863",
+      "title": "Bank of England backs down on strict stablecoin holding limits, sets $50 billion issuance cap",
+      "url": "https://www.coindesk.com/policy/2026/06/22/bank-of-england-backs-down-on-strict-stablecoin-holding-limits-sets-usd50-billion-issuance-cap",
+      "publishedAt": "2026-06-22",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-fd6217713ea8",
+      "title": "As bitcoin, altcoin prices gain, derivatives signal skepticism over a sustained rally",
+      "url": "https://www.coindesk.com/markets/2026/06/22/as-bitcoin-altcoin-prices-gain-derivatives-signal-skepticism-over-a-sustained-rally",
+      "publishedAt": "2026-06-22",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-1cefcdf2a3aa",
+      "title": "Bitcoin ETF outflow pain eases just as another headwind gathers strength",
+      "url": "https://www.coindesk.com/daybook-us/2026/06/22/bitcoin-etf-outflow-pain-eases-just-as-another-headwind-strengthens",
+      "publishedAt": "2026-06-22",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-4ae1eb633197",
+      "title": "TradFi fund manager Baillie Gifford introduces Solana, Ethereum tokenized fund with BNY",
+      "url": "https://www.coindesk.com/business/2026/06/22/tradfi-fund-manager-baillie-gifford-introduces-solana-ethereum-tokenized-fund-with-bny",
+      "publishedAt": "2026-06-22",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-835326e34034",
+      "title": "Strategy added $35 million in bitcoin, $300 million in cash reserves last week",
+      "url": "https://www.coindesk.com/markets/2026/06/22/strategy-added-usd35-million-in-bitcoin-usd300-million-in-cash-reserves-last-week",
+      "publishedAt": "2026-06-22",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-c00498f104cc",
+      "title": "Bitcoin mining network becoming more sensitive to price swings, JPMorgan says",
+      "url": "https://www.coindesk.com/markets/2026/06/22/bitcoin-mining-network-becoming-more-sensitive-to-price-swings-jpmorgan-says",
+      "publishedAt": "2026-06-22",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-5fb7cf94895b",
+      "title": "Bitmine added $92 million of ETH, with Tom Lee continuing to believe in 'crypto spring'",
+      "url": "https://www.coindesk.com/business/2026/06/22/bitmine-added-usd92-million-of-eth-with-tom-lee-continuing-to-believe-in-crypto-spring",
+      "publishedAt": "2026-06-22",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-39b582d7cddb",
+      "title": "Coinbase's Brian Armstrong says bitcoin may have bottomed at $60,000",
+      "url": "https://www.coindesk.com/markets/2026/06/15/coinbase-s-brian-armstrong-says-bitcoin-may-have-bottomed-at-usd60-000",
       "publishedAt": "2026-06-15",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-824255765125",
-      "title": "Bitcoin hits a two-week high above $65,500 as the US-Iran deal sends oil sliding",
-      "url": "https://www.coindesk.com/markets/2026/06/15/bitcoin-hits-a-two-week-high-above-usd65-500-as-the-us-iran-deal-sends-oil-sliding",
-      "publishedAt": "2026-06-15",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-1239487019fb",
-      "title": "XRP climbs 4% above $1.18 as traders test next resistance zone",
-      "url": "https://www.coindesk.com/markets/2026/06/15/xrp-climbs-4-above-usd1-18-as-traders-test-next-resistance-zone",
-      "publishedAt": "2026-06-15",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-1a35af48092c",
-      "title": "Live markets:  Bitcoin jumps above $66,000 as short squeeze builds on US-Iran deal hopes",
-      "url": "https://www.coindesk.com/tech/2026/06/15/live-markets-bitcoin-not-fully-out-of-danger-as-trump-warns-of-further-iran-strikes",
-      "publishedAt": "2026-06-15",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-76098532a84b",
-      "title": "Bitcoin traders have a reason to watch Tuesday's BOJ rate decision. Yen shorts are at a nine-year high",
-      "url": "https://www.coindesk.com/markets/2026/06/15/bitcoin-traders-have-a-reason-to-watch-tuesday-s-boj-rate-decision-yen-shorts-are-at-a-nine-year-high",
-      "publishedAt": "2026-06-15",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-ee58c3892714",
-      "title": "Ark Invest bought more than $500 million worth of SpaceX shares on IPO day",
-      "url": "https://www.coindesk.com/markets/2026/06/15/ark-invest-bought-more-than-usd500-million-worth-of-spacex-shares-on-ipo-day",
-      "publishedAt": "2026-06-15",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-8722c98f994b",
-      "title": "Trump-linked stablecoin used for bonus payouts at White House UFC contest",
-      "url": "https://www.coindesk.com/markets/2026/06/15/trump-linked-stablecoin-used-for-bonus-payouts-at-white-house-ufc-contest",
-      "publishedAt": "2026-06-15",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-ff3a9c698c25",
-      "title": "Middle East ceasefire, Fed interest-rate decision: Crypto Week Ahead",
-      "url": "https://www.coindesk.com/markets/2026/06/15/middle-east-ceasfire-fed-interest-rate-decision-crypto-week-ahead",
-      "publishedAt": "2026-06-15",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-20ee86fa3429",
-      "title": "U.S.-Iran deal lifts equities, sends oil lower, while crypto stays wary",
-      "url": "https://www.coindesk.com/markets/2026/06/15/u-s-iran-deal-lifts-equities-sends-oil-lower-while-crypto-stays-wary",
-      "publishedAt": "2026-06-15",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-a4412a6cf08e",
-      "title": "Markets cheer U.S.-Iran Breakthrough though Middle East risks, Fed remain in focus",
-      "url": "https://www.coindesk.com/daybook-us/2026/06/15/markets-cheer-u-s-iran-breakthrough-though-middle-east-risks-fed-remain-in-focus",
-      "publishedAt": "2026-06-15",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-7a2b1a329def",
-      "title": "Michael Saylor's Strategy acquires another 1,587 bitcoin for $100 million",
-      "url": "https://www.coindesk.com/markets/2026/06/15/strategy-deploys-usd100-million-from-usd-reserves-to-acquire-1-587-btc",
-      "publishedAt": "2026-06-15",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-3748a7723a19",
-      "title": "Bitmine adds another $136 million of ether after raising $274 million in preferred stock sale",
-      "url": "https://www.coindesk.com/business/2026/06/15/bitmine-adds-another-usd136-million-of-ether-after-raising-usd274-million-in-preferred-stock-sale",
+      "id": "rss-33d197aab186",
+      "title": "XRP rockets 8% above $1.20 in first major breakout since June selloff",
+      "url": "https://www.coindesk.com/markets/2026/06/15/xrp-rockets-8-above-usd1-20-in-first-major-breakout-since-june-selloff",
       "publishedAt": "2026-06-15",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
@@ -108,113 +148,105 @@
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-33d197aab186",
-      "title": "XRP rockets 8% above $1.20 in first major breakout since June selloff",
-      "url": "https://www.coindesk.com/markets/2026/06/15/xrp-rockets-8-above-usd1-20-in-first-major-breakout-since-june-selloff",
+      "id": "rss-3748a7723a19",
+      "title": "Bitmine adds another $136 million of ether after raising $274 million in preferred stock sale",
+      "url": "https://www.coindesk.com/business/2026/06/15/bitmine-adds-another-usd136-million-of-ether-after-raising-usd274-million-in-preferred-stock-sale",
       "publishedAt": "2026-06-15",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-39b582d7cddb",
-      "title": "Coinbase's Brian Armstrong says bitcoin may have bottomed at $60,000",
-      "url": "https://www.coindesk.com/markets/2026/06/15/coinbase-s-brian-armstrong-says-bitcoin-may-have-bottomed-at-usd60-000",
+      "id": "rss-7a2b1a329def",
+      "title": "Michael Saylor's Strategy acquires another 1,587 bitcoin for $100 million",
+      "url": "https://www.coindesk.com/markets/2026/06/15/strategy-deploys-usd100-million-from-usd-reserves-to-acquire-1-587-btc",
       "publishedAt": "2026-06-15",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-8ccae5352785",
-      "title": "Strategy buys 1,550 bitcoin, first time since selling $2.5 million worth of BTC",
-      "url": "https://www.coindesk.com/markets/2026/06/08/strategy-buys-1-550-bitcoin-boosts-cash-reserves-to-usd1-billion",
-      "publishedAt": "2026-06-08",
+      "id": "rss-a4412a6cf08e",
+      "title": "Markets cheer U.S.-Iran Breakthrough though Middle East risks, Fed remain in focus",
+      "url": "https://www.coindesk.com/daybook-us/2026/06/15/markets-cheer-u-s-iran-breakthrough-though-middle-east-risks-fed-remain-in-focus",
+      "publishedAt": "2026-06-15",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-f5ab34bc39f2",
-      "title": "Live updates: Bitcoin drops under $63,000 as Strategy adds $100 million BTC in latest purchase",
-      "url": "https://www.coindesk.com/business/2026/06/08/live-updates-bitcoin-above-usd63-400-as-strategy-adds-usd100-million-btc-in-latest-purchase",
-      "publishedAt": "2026-06-08",
+      "id": "rss-20ee86fa3429",
+      "title": "U.S.-Iran deal lifts equities, sends oil lower, while crypto stays wary",
+      "url": "https://www.coindesk.com/markets/2026/06/15/u-s-iran-deal-lifts-equities-sends-oil-lower-while-crypto-stays-wary",
+      "publishedAt": "2026-06-15",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-9ea8450f5d5d",
-      "title": "A crucial bitcoin market indicator is signaling that the worst of the crypto crash might be over",
-      "url": "https://www.coindesk.com/markets/2026/06/08/a-crucial-bitcoin-market-indicator-is-signaling-that-the-worst-of-the-crypto-crash-might-be-over",
-      "publishedAt": "2026-06-08",
+      "id": "rss-ff3a9c698c25",
+      "title": "Middle East ceasefire, Fed interest-rate decision: Crypto Week Ahead",
+      "url": "https://www.coindesk.com/markets/2026/06/15/middle-east-ceasfire-fed-interest-rate-decision-crypto-week-ahead",
+      "publishedAt": "2026-06-15",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-057306748090",
-      "title": "Bybit challenges Wall Street with a massive push into tokenized U.S. stock IPOs",
-      "url": "https://www.coindesk.com/markets/2026/06/08/bybit-launches-tokenized-ipo-service-starting-with-elon-musk-s-spacex",
-      "publishedAt": "2026-06-08",
+      "id": "rss-8722c98f994b",
+      "title": "Trump-linked stablecoin used for bonus payouts at White House UFC contest",
+      "url": "https://www.coindesk.com/markets/2026/06/15/trump-linked-stablecoin-used-for-bonus-payouts-at-white-house-ufc-contest",
+      "publishedAt": "2026-06-15",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-7b246ef68926",
-      "title": "Crypto's recovery remains elusive as SpaceX, Anthropic IPOs loom",
-      "url": "https://www.coindesk.com/daybook-us/2026/06/08/crypto-s-recovery-remains-unsecure-as-spacex-anthropic-ipos-loom-stronger-etf-inflows-would-help",
-      "publishedAt": "2026-06-08",
+      "id": "rss-ee58c3892714",
+      "title": "Ark Invest bought more than $500 million worth of SpaceX shares on IPO day",
+      "url": "https://www.coindesk.com/markets/2026/06/15/ark-invest-bought-more-than-usd500-million-worth-of-spacex-shares-on-ipo-day",
+      "publishedAt": "2026-06-15",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-15d16d85649b",
-      "title": "Bitcoin holds steady after Sunday's rally, though full-fledged reversal may take longer",
-      "url": "https://www.coindesk.com/markets/2026/06/08/bitcoin-holds-steady-after-sunday-s-rally-though-full-fledged-reversal-may-take-longer",
-      "publishedAt": "2026-06-08",
+      "id": "rss-76098532a84b",
+      "title": "Bitcoin traders have a reason to watch Tuesday's BOJ rate decision. Yen shorts are at a nine-year high",
+      "url": "https://www.coindesk.com/markets/2026/06/15/bitcoin-traders-have-a-reason-to-watch-tuesday-s-boj-rate-decision-yen-shorts-are-at-a-nine-year-high",
+      "publishedAt": "2026-06-15",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-6736c0b1f6ba",
-      "title": "Gold slips below 200-day moving average offering glimmer of hope for bitcoin bulls",
-      "url": "https://www.coindesk.com/markets/2026/06/08/gold-slips-below-200-day-moving-average-offering-glimmer-of-hope-for-bitcoin-bulls",
-      "publishedAt": "2026-06-08",
+      "id": "rss-1a35af48092c",
+      "title": "Live markets:  Bitcoin jumps above $66,000 as short squeeze builds on US-Iran deal hopes",
+      "url": "https://www.coindesk.com/tech/2026/06/15/live-markets-bitcoin-not-fully-out-of-danger-as-trump-warns-of-further-iran-strikes",
+      "publishedAt": "2026-06-15",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-d1f325e69dee",
-      "title": "U.S. inflation, European Central Bank rate decision: Crypto Week Ahead",
-      "url": "https://www.coindesk.com/markets/2026/06/08/u-s-inflation-european-central-bank-rate-decision-crypto-week-ahead",
-      "publishedAt": "2026-06-08",
+      "id": "rss-1239487019fb",
+      "title": "XRP climbs 4% above $1.18 as traders test next resistance zone",
+      "url": "https://www.coindesk.com/markets/2026/06/15/xrp-climbs-4-above-usd1-18-as-traders-test-next-resistance-zone",
+      "publishedAt": "2026-06-15",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-9964ebd678f1",
-      "title": "CME is letting traders bet on bitcoin volatility, not price, and two firms have already placed bets",
-      "url": "https://www.coindesk.com/markets/2026/06/08/cme-has-a-new-bitcoin-product-monarq-and-dv-chain-made-their-first-bet",
-      "publishedAt": "2026-06-08",
+      "id": "rss-824255765125",
+      "title": "Bitcoin hits a two-week high above $65,500 as the US-Iran deal sends oil sliding",
+      "url": "https://www.coindesk.com/markets/2026/06/15/bitcoin-hits-a-two-week-high-above-usd65-500-as-the-us-iran-deal-sends-oil-sliding",
+      "publishedAt": "2026-06-15",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-73a24e867d4f",
-      "title": "Zcash bounces 45% as developers propose new 'Ironwood' upgrade",
-      "url": "https://www.coindesk.com/markets/2026/06/08/zcash-bounces-45-as-developers-propose-new-ironwood-upgrade",
-      "publishedAt": "2026-06-08",
+      "id": "rss-3495f34e3f78",
+      "title": "Bitcoin shoots higher on Iran peace deal, with Strait of Hormuz set to open",
+      "url": "https://www.coindesk.com/markets/2026/06/14/bitcoin-shoots-higher-on-iran-deal-with-strait-of-hormuz-set-to-open",
+      "publishedAt": "2026-06-15",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-0e1513ac75cd",
-      "title": "XRP steadies above $1.10 to bounce from four-month lows",
-      "url": "https://www.coindesk.com/markets/2026/06/08/xrp-steadies-above-usd1-10-as-oversold-bounce-meets-lingering-bearish-pressure",
-      "publishedAt": "2026-06-08",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-eb80766ec321",
-      "title": "Bitcoin's rally to $63,700 triggers $504 million losses for short sellers, most since late April",
-      "url": "https://www.coindesk.com/markets/2026/06/08/bitcoin-pump-to-usd63-700-triggers-the-most-short-liquidations-since-late-april",
+      "id": "rss-0fabb8b23fd5",
+      "title": "Bitcoin falls back below $63,000 as Iran-Israel trade strikes and Korean stocks crash",
+      "url": "https://www.coindesk.com/markets/2026/06/08/bitcoin-recedes-to-usd63-000-as-iran-israel-trade-strikes-and-korean-stocks-crash",
       "publishedAt": "2026-06-08",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
@@ -228,9 +260,97 @@
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-0fabb8b23fd5",
-      "title": "Bitcoin falls back below $63,000 as Iran-Israel trade strikes and Korean stocks crash",
-      "url": "https://www.coindesk.com/markets/2026/06/08/bitcoin-recedes-to-usd63-000-as-iran-israel-trade-strikes-and-korean-stocks-crash",
+      "id": "rss-eb80766ec321",
+      "title": "Bitcoin's rally to $63,700 triggers $504 million losses for short sellers, most since late April",
+      "url": "https://www.coindesk.com/markets/2026/06/08/bitcoin-pump-to-usd63-700-triggers-the-most-short-liquidations-since-late-april",
+      "publishedAt": "2026-06-08",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-0e1513ac75cd",
+      "title": "XRP steadies above $1.10 to bounce from four-month lows",
+      "url": "https://www.coindesk.com/markets/2026/06/08/xrp-steadies-above-usd1-10-as-oversold-bounce-meets-lingering-bearish-pressure",
+      "publishedAt": "2026-06-08",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-73a24e867d4f",
+      "title": "Zcash bounces 45% as developers propose new 'Ironwood' upgrade",
+      "url": "https://www.coindesk.com/markets/2026/06/08/zcash-bounces-45-as-developers-propose-new-ironwood-upgrade",
+      "publishedAt": "2026-06-08",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-9964ebd678f1",
+      "title": "CME is letting traders bet on bitcoin volatility, not price, and two firms have already placed bets",
+      "url": "https://www.coindesk.com/markets/2026/06/08/cme-has-a-new-bitcoin-product-monarq-and-dv-chain-made-their-first-bet",
+      "publishedAt": "2026-06-08",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-d1f325e69dee",
+      "title": "U.S. inflation, European Central Bank rate decision: Crypto Week Ahead",
+      "url": "https://www.coindesk.com/markets/2026/06/08/u-s-inflation-european-central-bank-rate-decision-crypto-week-ahead",
+      "publishedAt": "2026-06-08",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-6736c0b1f6ba",
+      "title": "Gold slips below 200-day moving average offering glimmer of hope for bitcoin bulls",
+      "url": "https://www.coindesk.com/markets/2026/06/08/gold-slips-below-200-day-moving-average-offering-glimmer-of-hope-for-bitcoin-bulls",
+      "publishedAt": "2026-06-08",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-15d16d85649b",
+      "title": "Bitcoin holds steady after Sunday's rally, though full-fledged reversal may take longer",
+      "url": "https://www.coindesk.com/markets/2026/06/08/bitcoin-holds-steady-after-sunday-s-rally-though-full-fledged-reversal-may-take-longer",
+      "publishedAt": "2026-06-08",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-7b246ef68926",
+      "title": "Crypto's recovery remains elusive as SpaceX, Anthropic IPOs loom",
+      "url": "https://www.coindesk.com/daybook-us/2026/06/08/crypto-s-recovery-remains-unsecure-as-spacex-anthropic-ipos-loom-stronger-etf-inflows-would-help",
+      "publishedAt": "2026-06-08",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-057306748090",
+      "title": "Bybit challenges Wall Street with a massive push into tokenized U.S. stock IPOs",
+      "url": "https://www.coindesk.com/markets/2026/06/08/bybit-launches-tokenized-ipo-service-starting-with-elon-musk-s-spacex",
+      "publishedAt": "2026-06-08",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-9ea8450f5d5d",
+      "title": "A crucial bitcoin market indicator is signaling that the worst of the crypto crash might be over",
+      "url": "https://www.coindesk.com/markets/2026/06/08/a-crucial-bitcoin-market-indicator-is-signaling-that-the-worst-of-the-crypto-crash-might-be-over",
+      "publishedAt": "2026-06-08",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-f5ab34bc39f2",
+      "title": "Live updates: Bitcoin drops under $63,000 as Strategy adds $100 million BTC in latest purchase",
+      "url": "https://www.coindesk.com/business/2026/06/08/live-updates-bitcoin-above-usd63-400-as-strategy-adds-usd100-million-btc-in-latest-purchase",
+      "publishedAt": "2026-06-08",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-8ccae5352785",
+      "title": "Strategy buys 1,550 bitcoin, first time since selling $2.5 million worth of BTC",
+      "url": "https://www.coindesk.com/markets/2026/06/08/strategy-buys-1-550-bitcoin-boosts-cash-reserves-to-usd1-billion",
       "publishedAt": "2026-06-08",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
@@ -244,105 +364,9 @@
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-16215e6b5f71",
-      "title": "Three Sui mainnet halts in 48 hours traced to an upgrade bug by developers",
-      "url": "https://www.coindesk.com/tech/2026/06/01/three-sui-mainnet-halts-in-48-hours-traced-to-an-upgrade-bug-by-developers",
-      "publishedAt": "2026-06-01",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-b21056b02e12",
-      "title": "XRP drops to $1.32 as sellers overpower exchange outflows",
-      "url": "https://www.coindesk.com/markets/2026/06/01/xrp-drops-to-usd1-32-as-sellers-overpower-exchange-outflows",
-      "publishedAt": "2026-06-01",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-3608f2a9a2df",
-      "title": "Whitehat developer unlocks $2 million stuck in a 2016 Ethereum ICO contract for nine years",
-      "url": "https://www.coindesk.com/tech/2026/06/01/whitehat-developer-unlocks-usd2-million-stuck-in-a-2016-ethereum-ico-contract-for-nine-years",
-      "publishedAt": "2026-06-01",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-3ba4c333efed",
-      "title": "Citi predicts the tokenized securities market will grow to $5.5 trillion by 2030",
-      "url": "https://www.coindesk.com/markets/2026/06/01/citi-predicts-the-tokenized-securities-market-will-grow-to-usd5-5-trillion-by-2030",
-      "publishedAt": "2026-06-01",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-2e89b4d524e3",
-      "title": "U.S. Congress returns as GENIUS comments periods close, jobs report: Crypto Week Ahead",
-      "url": "https://www.coindesk.com/markets/2026/06/01/u-s-congress-returns-as-genius-comments-periods-close-jobs-report-crypto-week-ahead",
-      "publishedAt": "2026-06-01",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-e5dc47305f8c",
-      "title": "Bitcoin and software stocks are breaking up — and history says a major crypto move is coming",
-      "url": "https://www.coindesk.com/markets/2026/06/01/software-stocks-break-from-bitcoin-as-igv-stages-powerful-recovery",
-      "publishedAt": "2026-06-01",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-c2108f9763cb",
-      "title": "Bitcoin, ether start June in the red while futures show taste for risk. XLM, HYPE gain",
-      "url": "https://www.coindesk.com/markets/2026/06/01/bitcoin-ether-start-june-in-the-red-while-futures-show-taste-for-risk-xlm-hype-gain",
-      "publishedAt": "2026-06-01",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-aab7b6209d6a",
-      "title": "Strategy holds STRC dividend at 11.5% for fourth straight month",
-      "url": "https://www.coindesk.com/markets/2026/06/01/strategy-holds-strc-dividend-at-11-5-for-fourth-straight-month",
-      "publishedAt": "2026-06-01",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-888b1ab30595",
-      "title": "Cardano Summit 2026 canceled after community votes against Foundation funding proposal",
-      "url": "https://www.coindesk.com/markets/2026/06/01/cardano-governance-vote-kills-summit-approves-smaller-token2049-plan",
-      "publishedAt": "2026-06-01",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-575593e56710",
-      "title": "Bitcoin remains under pressure as ETF outflows, higher oil prices weigh on crypto markets",
-      "url": "https://www.coindesk.com/daybook-us/2026/06/01/bitcoin-remains-under-pressure-as-etf-outflows-higher-oil-prices-weigh-on-crypto-markets",
-      "publishedAt": "2026-06-01",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-b02babf5e8bd",
-      "title": "Michael Saylor's Strategy sold 32 bitcoin for $2.5 million in late May",
-      "url": "https://www.coindesk.com/markets/2026/06/01/strategy-sold-32-btc-for-usd2-5-million-in-late-may-filing-shows",
-      "publishedAt": "2026-06-01",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-7335b76b4e62",
-      "title": "Live markets: bitcoin retreats under $72,000 as Strategy unloads BTC for first time in four years",
-      "url": "https://www.coindesk.com/markets/2026/06/01/live-markets-bitcoin-retreats-under-usd72-000-as-strategy-unloads-btc-for-first-time-in-four-years",
-      "publishedAt": "2026-06-01",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-c46ff045ac56",
-      "title": "Bitmine slows ether purchase pace, buying $53 million worth last week",
-      "url": "https://www.coindesk.com/business/2026/06/01/bitmine-slows-ether-purchase-pace-buying-usd53-million-worth-last-week",
+      "id": "rss-2dbca7863991",
+      "title": "Japan's ruling party supports crypto ETF trading, yen-based stablecoins",
+      "url": "https://www.coindesk.com/policy/2026/06/01/japan-s-ruling-party-supports-crypto-etf-trading-yen-based-stablecoins",
       "publishedAt": "2026-06-01",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
@@ -356,25 +380,113 @@
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-2dbca7863991",
-      "title": "Japan's ruling party supports crypto ETF trading, yen-based stablecoins",
-      "url": "https://www.coindesk.com/policy/2026/06/01/japan-s-ruling-party-supports-crypto-etf-trading-yen-based-stablecoins",
+      "id": "rss-c46ff045ac56",
+      "title": "Bitmine slows ether purchase pace, buying $53 million worth last week",
+      "url": "https://www.coindesk.com/business/2026/06/01/bitmine-slows-ether-purchase-pace-buying-usd53-million-worth-last-week",
       "publishedAt": "2026-06-01",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-c4a2060f4fc5",
-      "title": "HYPE funds attract millions as investors dump bitcoin and ether ETFs",
-      "url": "https://www.coindesk.com/markets/2026/05/25/hype-funds-attract-millions-as-investors-dump-bitcoin-and-ether-etfs",
-      "publishedAt": "2026-05-25",
+      "id": "rss-7335b76b4e62",
+      "title": "Live markets: bitcoin retreats under $72,000 as Strategy unloads BTC for first time in four years",
+      "url": "https://www.coindesk.com/markets/2026/06/01/live-markets-bitcoin-retreats-under-usd72-000-as-strategy-unloads-btc-for-first-time-in-four-years",
+      "publishedAt": "2026-06-01",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-70364b7ca0e3",
-      "title": "Hyperliquid is emerging as a challenger to traditional exchanges and prediction markets, says FalconX",
-      "url": "https://www.coindesk.com/markets/2026/05/25/hyperliquid-is-emerging-as-a-challenger-to-traditional-exchanges-and-prediction-markets-says-falconx",
+      "id": "rss-b02babf5e8bd",
+      "title": "Michael Saylor's Strategy sold 32 bitcoin for $2.5 million in late May",
+      "url": "https://www.coindesk.com/markets/2026/06/01/strategy-sold-32-btc-for-usd2-5-million-in-late-may-filing-shows",
+      "publishedAt": "2026-06-01",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-575593e56710",
+      "title": "Bitcoin remains under pressure as ETF outflows, higher oil prices weigh on crypto markets",
+      "url": "https://www.coindesk.com/daybook-us/2026/06/01/bitcoin-remains-under-pressure-as-etf-outflows-higher-oil-prices-weigh-on-crypto-markets",
+      "publishedAt": "2026-06-01",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-888b1ab30595",
+      "title": "Cardano Summit 2026 canceled after community votes against Foundation funding proposal",
+      "url": "https://www.coindesk.com/markets/2026/06/01/cardano-governance-vote-kills-summit-approves-smaller-token2049-plan",
+      "publishedAt": "2026-06-01",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-aab7b6209d6a",
+      "title": "Strategy holds STRC dividend at 11.5% for fourth straight month",
+      "url": "https://www.coindesk.com/markets/2026/06/01/strategy-holds-strc-dividend-at-11-5-for-fourth-straight-month",
+      "publishedAt": "2026-06-01",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-c2108f9763cb",
+      "title": "Bitcoin, ether start June in the red while futures show taste for risk. XLM, HYPE gain",
+      "url": "https://www.coindesk.com/markets/2026/06/01/bitcoin-ether-start-june-in-the-red-while-futures-show-taste-for-risk-xlm-hype-gain",
+      "publishedAt": "2026-06-01",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-e5dc47305f8c",
+      "title": "Bitcoin and software stocks are breaking up — and history says a major crypto move is coming",
+      "url": "https://www.coindesk.com/markets/2026/06/01/software-stocks-break-from-bitcoin-as-igv-stages-powerful-recovery",
+      "publishedAt": "2026-06-01",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-2e89b4d524e3",
+      "title": "U.S. Congress returns as GENIUS comments periods close, jobs report: Crypto Week Ahead",
+      "url": "https://www.coindesk.com/markets/2026/06/01/u-s-congress-returns-as-genius-comments-periods-close-jobs-report-crypto-week-ahead",
+      "publishedAt": "2026-06-01",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-3ba4c333efed",
+      "title": "Citi predicts the tokenized securities market will grow to $5.5 trillion by 2030",
+      "url": "https://www.coindesk.com/markets/2026/06/01/citi-predicts-the-tokenized-securities-market-will-grow-to-usd5-5-trillion-by-2030",
+      "publishedAt": "2026-06-01",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-3608f2a9a2df",
+      "title": "Whitehat developer unlocks $2 million stuck in a 2016 Ethereum ICO contract for nine years",
+      "url": "https://www.coindesk.com/tech/2026/06/01/whitehat-developer-unlocks-usd2-million-stuck-in-a-2016-ethereum-ico-contract-for-nine-years",
+      "publishedAt": "2026-06-01",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-b21056b02e12",
+      "title": "XRP drops to $1.32 as sellers overpower exchange outflows",
+      "url": "https://www.coindesk.com/markets/2026/06/01/xrp-drops-to-usd1-32-as-sellers-overpower-exchange-outflows",
+      "publishedAt": "2026-06-01",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-16215e6b5f71",
+      "title": "Three Sui mainnet halts in 48 hours traced to an upgrade bug by developers",
+      "url": "https://www.coindesk.com/tech/2026/06/01/three-sui-mainnet-halts-in-48-hours-traced-to-an-upgrade-bug-by-developers",
+      "publishedAt": "2026-06-01",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-120a42b28c16",
+      "title": "Bitcoin options are coming to Nasdaq. Here's what it means for you.",
+      "url": "https://www.coindesk.com/markets/2026/05/25/bitcoin-options-are-coming-to-nadaq-here-s-what-it-means-for-you",
       "publishedAt": "2026-05-25",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
@@ -388,33 +500,25 @@
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-120a42b28c16",
-      "title": "Bitcoin options are coming to Nasdaq. Here's what it means for you.",
-      "url": "https://www.coindesk.com/markets/2026/05/25/bitcoin-options-are-coming-to-nadaq-here-s-what-it-means-for-you",
+      "id": "rss-70364b7ca0e3",
+      "title": "Hyperliquid is emerging as a challenger to traditional exchanges and prediction markets, says FalconX",
+      "url": "https://www.coindesk.com/markets/2026/05/25/hyperliquid-is-emerging-as-a-challenger-to-traditional-exchanges-and-prediction-markets-says-falconx",
       "publishedAt": "2026-05-25",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-1f929b0689ab",
-      "title": "Coinbase does not fear competition from Wall Street, says exchange executive",
-      "url": "https://www.coindesk.com/business/2026/05/24/coinbase-does-not-fear-competition-from-wall-street-says-exchange-executive",
-      "publishedAt": "2026-05-24",
+      "id": "rss-c4a2060f4fc5",
+      "title": "HYPE funds attract millions as investors dump bitcoin and ether ETFs",
+      "url": "https://www.coindesk.com/markets/2026/05/25/hype-funds-attract-millions-as-investors-dump-bitcoin-and-ether-etfs",
+      "publishedAt": "2026-05-25",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-f3ec350b8503",
-      "title": "Crypto and the Fed: State of Crypto",
-      "url": "https://www.coindesk.com/policy/2026/05/24/crypto-and-the-fed-state-of-crypto",
-      "publishedAt": "2026-05-24",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-78f8db1579d5",
-      "title": "A massive $1 trillion hidden market is waiting to be unlocked in bitcoin, says new report",
-      "url": "https://www.coindesk.com/business/2026/05/22/ledn",
+      "id": "rss-b3842e0bc28a",
+      "title": "Crypto rails are becoming the default payment layer for AI agents, report says",
+      "url": "https://www.coindesk.com/business/2026/05/21/crypto-rails-are-becoming-the-default-payment-layer-for-ai-agents-report-says",
       "publishedAt": "2026-05-24",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
@@ -428,33 +532,33 @@
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-b3842e0bc28a",
-      "title": "Crypto rails are becoming the default payment layer for AI agents, report says",
-      "url": "https://www.coindesk.com/business/2026/05/21/crypto-rails-are-becoming-the-default-payment-layer-for-ai-agents-report-says",
+      "id": "rss-78f8db1579d5",
+      "title": "A massive $1 trillion hidden market is waiting to be unlocked in bitcoin, says new report",
+      "url": "https://www.coindesk.com/business/2026/05/22/ledn",
       "publishedAt": "2026-05-24",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-f4a488e62724",
-      "title": "Bitcoin heads higher as President Trump announces Iran peace agreement",
-      "url": "https://www.coindesk.com/markets/2026/05/23/bitcoin-heads-higher-as-president-trump-announces-iran-peace-agreement",
-      "publishedAt": "2026-05-23",
+      "id": "rss-f3ec350b8503",
+      "title": "Crypto and the Fed: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/05/24/crypto-and-the-fed-state-of-crypto",
+      "publishedAt": "2026-05-24",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-5026ef81a707",
-      "title": "Bitcoin is ready to beat stocks and bonds again after underperformance against Wall Street",
-      "url": "https://www.coindesk.com/markets/2026/05/23/bitcoin-is-ready-to-beat-stocks-and-bonds-again-after-underperformance-against-wall-street",
-      "publishedAt": "2026-05-23",
+      "id": "rss-1f929b0689ab",
+      "title": "Coinbase does not fear competition from Wall Street, says exchange executive",
+      "url": "https://www.coindesk.com/business/2026/05/24/coinbase-does-not-fear-competition-from-wall-street-says-exchange-executive",
+      "publishedAt": "2026-05-24",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-40269a17e4c6",
-      "title": "Crypto trader sees Hyperliquid, AI tokens leading next altcoin rally",
-      "url": "https://www.coindesk.com/markets/2026/05/23/crypto-trader-sees-hyperliquid-ai-tokens-leading-next-altcoin-rally",
+      "id": "rss-8d8aec51461c",
+      "title": "Bitcoin tanks to $74,300 as spot ETFs bleed $2.26 billion in two weeks",
+      "url": "https://www.coindesk.com/markets/2026/05/23/bitcoin-tanks-to-usd74-300-as-spot-etfs-bleed-usd2-26-billion-in-two-weeks",
       "publishedAt": "2026-05-23",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
@@ -468,9 +572,25 @@
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-8d8aec51461c",
-      "title": "Bitcoin tanks to $74,300 as spot ETFs bleed $2.26 billion in two weeks",
-      "url": "https://www.coindesk.com/markets/2026/05/23/bitcoin-tanks-to-usd74-300-as-spot-etfs-bleed-usd2-26-billion-in-two-weeks",
+      "id": "rss-40269a17e4c6",
+      "title": "Crypto trader sees Hyperliquid, AI tokens leading next altcoin rally",
+      "url": "https://www.coindesk.com/markets/2026/05/23/crypto-trader-sees-hyperliquid-ai-tokens-leading-next-altcoin-rally",
+      "publishedAt": "2026-05-23",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-5026ef81a707",
+      "title": "Bitcoin is ready to beat stocks and bonds again after underperformance against Wall Street",
+      "url": "https://www.coindesk.com/markets/2026/05/23/bitcoin-is-ready-to-beat-stocks-and-bonds-again-after-underperformance-against-wall-street",
+      "publishedAt": "2026-05-23",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-f4a488e62724",
+      "title": "Bitcoin heads higher as President Trump announces Iran peace agreement",
+      "url": "https://www.coindesk.com/markets/2026/05/23/bitcoin-heads-higher-as-president-trump-announces-iran-peace-agreement",
       "publishedAt": "2026-05-23",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
@@ -484,73 +604,9 @@
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-beb2015bacdb",
-      "title": "Bitcoin slides under $77,000 as oil shock and Treasury yields hit risk assets",
-      "url": "https://www.coindesk.com/markets/2026/05/18/bitcoin-slides-under-usd77-000-as-oil-shock-and-treasury-yields-hit-risk-assets",
-      "publishedAt": "2026-05-18",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-dc878d22de32",
-      "title": "Yet another crypto bridge falls victim to an $11 million hack",
-      "url": "https://www.coindesk.com/markets/2026/05/18/yet-another-crypto-bridge-falls-victim-to-an-usd11-million-hack",
-      "publishedAt": "2026-05-18",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-82ecc4603f1d",
-      "title": "HYPE pops 7%, beating bitcoin declines, as SpaceX pre-IPO lands on Hyperliquid",
-      "url": "https://www.coindesk.com/markets/2026/05/18/hype-pops-7-beating-bitcoin-declines-as-spacex-pre-ipo-lands-on-hyperliquid",
-      "publishedAt": "2026-05-18",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-c62dc76f8399",
-      "title": "Crypto traders betting on a rally lose $563 million in liquidations. Ether and bitcoin suffer the most",
-      "url": "https://www.coindesk.com/markets/2026/05/18/crypto-traders-betting-on-a-rally-lose-usd563-million-in-liquidations-ether-and-bitcoin-suffer-the-most",
-      "publishedAt": "2026-05-18",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-c07a501dfc58",
-      "title": "Iran may be turning the Strait of Hormuz into a bitcoin-based insurance market, local reports say",
-      "url": "https://www.coindesk.com/markets/2026/05/18/iran-may-be-turning-the-strait-of-hormuz-into-a-bitcoin-insurance-market-local-reports-say",
-      "publishedAt": "2026-05-18",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-453ee5716c9e",
-      "title": "Bitcoin Depot, North America's largest bitcoin ATM operator, files for bankruptcy",
-      "url": "https://www.coindesk.com/markets/2026/05/18/bitcoin-depot-once-north-america-s-largest-bitcoin-atm-operator-files-for-bankruptcy",
-      "publishedAt": "2026-05-18",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-14453abd8b38",
-      "title": "Aave restores ether borrowing limits after $230 million exploit",
-      "url": "https://www.coindesk.com/markets/2026/05/18/aave-restores-weth-collateral-limits-as-rseth-crisis-enters-recovery-phase",
-      "publishedAt": "2026-05-18",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-cde74d21bd2f",
-      "title": "Crypto security is turning into an AI arms race as agents may overwhelm compliance teams",
-      "url": "https://www.coindesk.com/tech/2026/05/18/crypto-security-is-turning-into-an-ai-arms-race-as-agents-may-overwhelm-compliance-teams",
-      "publishedAt": "2026-05-18",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-b825238a3f6f",
-      "title": "Fed minutes, Meta stablecoin Senate deadline: Crypto Week Ahead",
-      "url": "https://www.coindesk.com/markets/2026/05/18/fed-minutes-meta-stablecoin-senate-deadline-crypto-week-ahead",
+      "id": "rss-c281cf3334a9",
+      "title": "The three risks that could overwhelm bitcoin's regulatory tailwind",
+      "url": "https://www.coindesk.com/daybook-us/2026/05/18/the-three-risks-that-could-overwhelm-bitcoin-s-regulatory-tailwind",
       "publishedAt": "2026-05-18",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
@@ -564,25 +620,81 @@
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-c281cf3334a9",
-      "title": "The three risks that could overwhelm bitcoin's regulatory tailwind",
-      "url": "https://www.coindesk.com/daybook-us/2026/05/18/the-three-risks-that-could-overwhelm-bitcoin-s-regulatory-tailwind",
+      "id": "rss-b825238a3f6f",
+      "title": "Fed minutes, Meta stablecoin Senate deadline: Crypto Week Ahead",
+      "url": "https://www.coindesk.com/markets/2026/05/18/fed-minutes-meta-stablecoin-senate-deadline-crypto-week-ahead",
       "publishedAt": "2026-05-18",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-36c473b8a5c9",
-      "title": "A Russian stablecoin built to dodge sanctions says it can survive even if they're lifted",
-      "url": "https://www.coindesk.com/policy/2026/05/24/a-russian-stablecoin-built-to-dodge-sanctions-says-it-can-survive-even-if-they-re-lifted",
-      "publishedAt": "2026-05-17",
+      "id": "rss-cde74d21bd2f",
+      "title": "Crypto security is turning into an AI arms race as agents may overwhelm compliance teams",
+      "url": "https://www.coindesk.com/tech/2026/05/18/crypto-security-is-turning-into-an-ai-arms-race-as-agents-may-overwhelm-compliance-teams",
+      "publishedAt": "2026-05-18",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-06f6db920733",
-      "title": "Japan's SBI Securities, Rakuten Securities plan to offer crypto investment trusts",
-      "url": "https://www.coindesk.com/business/2026/05/17/japan-s-sbi-securities-rakuten-securities-plan-to-offer-crypto-investment-trusts",
+      "id": "rss-14453abd8b38",
+      "title": "Aave restores ether borrowing limits after $230 million exploit",
+      "url": "https://www.coindesk.com/markets/2026/05/18/aave-restores-weth-collateral-limits-as-rseth-crisis-enters-recovery-phase",
+      "publishedAt": "2026-05-18",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-453ee5716c9e",
+      "title": "Bitcoin Depot, North America's largest bitcoin ATM operator, files for bankruptcy",
+      "url": "https://www.coindesk.com/markets/2026/05/18/bitcoin-depot-once-north-america-s-largest-bitcoin-atm-operator-files-for-bankruptcy",
+      "publishedAt": "2026-05-18",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-c07a501dfc58",
+      "title": "Iran may be turning the Strait of Hormuz into a bitcoin-based insurance market, local reports say",
+      "url": "https://www.coindesk.com/markets/2026/05/18/iran-may-be-turning-the-strait-of-hormuz-into-a-bitcoin-insurance-market-local-reports-say",
+      "publishedAt": "2026-05-18",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-c62dc76f8399",
+      "title": "Crypto traders betting on a rally lose $563 million in liquidations. Ether and bitcoin suffer the most",
+      "url": "https://www.coindesk.com/markets/2026/05/18/crypto-traders-betting-on-a-rally-lose-usd563-million-in-liquidations-ether-and-bitcoin-suffer-the-most",
+      "publishedAt": "2026-05-18",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-82ecc4603f1d",
+      "title": "HYPE pops 7%, beating bitcoin declines, as SpaceX pre-IPO lands on Hyperliquid",
+      "url": "https://www.coindesk.com/markets/2026/05/18/hype-pops-7-beating-bitcoin-declines-as-spacex-pre-ipo-lands-on-hyperliquid",
+      "publishedAt": "2026-05-18",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-dc878d22de32",
+      "title": "Yet another crypto bridge falls victim to an $11 million hack",
+      "url": "https://www.coindesk.com/markets/2026/05/18/yet-another-crypto-bridge-falls-victim-to-an-usd11-million-hack",
+      "publishedAt": "2026-05-18",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-beb2015bacdb",
+      "title": "Bitcoin slides under $77,000 as oil shock and Treasury yields hit risk assets",
+      "url": "https://www.coindesk.com/markets/2026/05/18/bitcoin-slides-under-usd77-000-as-oil-shock-and-treasury-yields-hit-risk-assets",
+      "publishedAt": "2026-05-18",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-f10857531ae5",
+      "title": "The Clarity Act took a step forward: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/05/17/the-clarity-act-took-a-step-forward-state-of-crypto",
       "publishedAt": "2026-05-17",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
@@ -596,33 +708,81 @@
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-f10857531ae5",
-      "title": "The Clarity Act took a step forward: State of Crypto",
-      "url": "https://www.coindesk.com/policy/2026/05/17/the-clarity-act-took-a-step-forward-state-of-crypto",
+      "id": "rss-06f6db920733",
+      "title": "Japan's SBI Securities, Rakuten Securities plan to offer crypto investment trusts",
+      "url": "https://www.coindesk.com/business/2026/05/17/japan-s-sbi-securities-rakuten-securities-plan-to-offer-crypto-investment-trusts",
       "publishedAt": "2026-05-17",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-b4c55d0c6cc0",
-      "title": "Bitcoin funds capture $700 million as institutions place their bets",
-      "url": "https://www.coindesk.com/daybook-us/2026/05/11/bitcoin-funds-capture-usd700-million-as-institutions-place-their-bets",
+      "id": "rss-36c473b8a5c9",
+      "title": "A Russian stablecoin built to dodge sanctions says it can survive even if they're lifted",
+      "url": "https://www.coindesk.com/policy/2026/05/24/a-russian-stablecoin-built-to-dodge-sanctions-says-it-can-survive-even-if-they-re-lifted",
+      "publishedAt": "2026-05-17",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-8078859016d4",
+      "title": "A bitcoin whale that went silent in 2013 moves $40 million in BTC",
+      "url": "https://www.coindesk.com/markets/2026/05/11/a-bitcoin-whale-that-went-silent-in-2013-moves-usd40-million-in-btc",
       "publishedAt": "2026-05-11",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-12129ddc3a10",
-      "title": "Michael Saylor’s latest tax strategy echoes Strategy’s 2022 bitcoin sale",
-      "url": "https://www.coindesk.com/markets/2026/05/11/michael-saylor-s-latest-tax-strategy-echoes-strategy-s-2022-bitcoin-sale",
+      "id": "rss-a1308d3666db",
+      "title": "XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45",
+      "url": "https://www.coindesk.com/markets/2026/05/11/xrp-spikes-2-5-beating-bitcoin-and-ether-in-breakout-above-usd1-45",
       "publishedAt": "2026-05-11",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-f6b025f31102",
-      "title": "Trump fans put millions of dollars into a gold phone and a memecoin. Neither has gone well",
-      "url": "https://www.coindesk.com/markets/2026/05/11/trump-fans-put-millions-of-dollars-into-a-gold-phone-and-a-memecoin-neither-has-gone-well/markets/2026/05/11/trump-fans-put-millions-of-dollars-into-a-gold-phone-and-a-memecoin-neither-has-gone-well",
+      "id": "rss-171367c854e4",
+      "title": "Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction",
+      "url": "https://www.coindesk.com/markets/2026/05/11/bitcoin-mining-pools-with-75-of-btc-hashrate-join-open-standard-for-block-construction",
+      "publishedAt": "2026-05-11",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-7dff1e55fc29",
+      "title": "New Fed chair, Base's Azul upgrade, corporate earnings: Crypto Week Ahead",
+      "url": "https://www.coindesk.com/markets/2026/05/11/new-fed-chair-base-s-azul-upgrade-corporate-earnings-crypto-week-ahead",
+      "publishedAt": "2026-05-11",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-2565fa9dca74",
+      "title": "Bitcoin, Nasdaq investors are celebrating, while U.S. consumers turn gloomy",
+      "url": "https://www.coindesk.com/markets/2026/05/11/bitcoin-nasdaq-investors-are-celebrating-while-u-s-consumers-are-panicking",
+      "publishedAt": "2026-05-11",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-69b560595944",
+      "title": "MARA expected to post Q1 losses as investors look ahead to AI growth strategy",
+      "url": "https://www.coindesk.com/markets/2026/05/11/mara-expected-to-post-q1-losses-as-investors-look-ahead-to-ai-growth-strategy",
+      "publishedAt": "2026-05-11",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-6d66eef9cbc5",
+      "title": "Canton Network’s Digital Asset targets $2 billion valuation in a16z crypto-led raise: Bloomberg",
+      "url": "https://www.coindesk.com/business/2026/05/11/canton-network-s-digital-asset-targets-usd2-billion-valuation-in-a16z-crypto-led-raise-bloomberg",
+      "publishedAt": "2026-05-11",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-1ff8c8fe9268",
+      "title": "Bitcoin whipsaws on CME open as Iran tensions pressure crypto markets",
+      "url": "https://www.coindesk.com/markets/2026/05/11/bitcoin-whipsaws-on-cme-open-as-iran-tensions-pressure-crypto-markets",
       "publishedAt": "2026-05-11",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
@@ -638,73 +798,33 @@
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-1ff8c8fe9268",
-      "title": "Bitcoin whipsaws on CME open as Iran tensions pressure crypto markets",
-      "url": "https://www.coindesk.com/markets/2026/05/11/bitcoin-whipsaws-on-cme-open-as-iran-tensions-pressure-crypto-markets",
+      "id": "rss-f6b025f31102",
+      "title": "Trump fans put millions of dollars into a gold phone and a memecoin. Neither has gone well",
+      "url": "https://www.coindesk.com/markets/2026/05/11/trump-fans-put-millions-of-dollars-into-a-gold-phone-and-a-memecoin-neither-has-gone-well/markets/2026/05/11/trump-fans-put-millions-of-dollars-into-a-gold-phone-and-a-memecoin-neither-has-gone-well",
       "publishedAt": "2026-05-11",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-6d66eef9cbc5",
-      "title": "Canton Network’s Digital Asset targets $2 billion valuation in a16z crypto-led raise: Bloomberg",
-      "url": "https://www.coindesk.com/business/2026/05/11/canton-network-s-digital-asset-targets-usd2-billion-valuation-in-a16z-crypto-led-raise-bloomberg",
+      "id": "rss-12129ddc3a10",
+      "title": "Michael Saylor’s latest tax strategy echoes Strategy’s 2022 bitcoin sale",
+      "url": "https://www.coindesk.com/markets/2026/05/11/michael-saylor-s-latest-tax-strategy-echoes-strategy-s-2022-bitcoin-sale",
       "publishedAt": "2026-05-11",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-69b560595944",
-      "title": "MARA expected to post Q1 losses as investors look ahead to AI growth strategy",
-      "url": "https://www.coindesk.com/markets/2026/05/11/mara-expected-to-post-q1-losses-as-investors-look-ahead-to-ai-growth-strategy",
+      "id": "rss-b4c55d0c6cc0",
+      "title": "Bitcoin funds capture $700 million as institutions place their bets",
+      "url": "https://www.coindesk.com/daybook-us/2026/05/11/bitcoin-funds-capture-usd700-million-as-institutions-place-their-bets",
       "publishedAt": "2026-05-11",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-2565fa9dca74",
-      "title": "Bitcoin, Nasdaq investors are celebrating, while U.S. consumers turn gloomy",
-      "url": "https://www.coindesk.com/markets/2026/05/11/bitcoin-nasdaq-investors-are-celebrating-while-u-s-consumers-are-panicking",
-      "publishedAt": "2026-05-11",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-7dff1e55fc29",
-      "title": "New Fed chair, Base's Azul upgrade, corporate earnings: Crypto Week Ahead",
-      "url": "https://www.coindesk.com/markets/2026/05/11/new-fed-chair-base-s-azul-upgrade-corporate-earnings-crypto-week-ahead",
-      "publishedAt": "2026-05-11",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-171367c854e4",
-      "title": "Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction",
-      "url": "https://www.coindesk.com/markets/2026/05/11/bitcoin-mining-pools-with-75-of-btc-hashrate-join-open-standard-for-block-construction",
-      "publishedAt": "2026-05-11",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-a1308d3666db",
-      "title": "XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45",
-      "url": "https://www.coindesk.com/markets/2026/05/11/xrp-spikes-2-5-beating-bitcoin-and-ether-in-breakout-above-usd1-45",
-      "publishedAt": "2026-05-11",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-8078859016d4",
-      "title": "A bitcoin whale that went silent in 2013 moves $40 million in BTC",
-      "url": "https://www.coindesk.com/markets/2026/05/11/a-bitcoin-whale-that-went-silent-in-2013-moves-usd40-million-in-btc",
-      "publishedAt": "2026-05-11",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-32607efee0f8",
-      "title": "Policy at Consensus Miami: State of Crypto",
-      "url": "https://www.coindesk.com/policy/2026/05/10/policy-at-consensus-miami-state-of-crypto",
+      "id": "rss-4bec1ba48b4d",
+      "title": "Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk",
+      "url": "https://www.coindesk.com/business/2026/05/10/bored-ape-nfts-are-finally-making-a-comeback-as-crypto-traders-rediscover-their-appetite-for-risk",
       "publishedAt": "2026-05-10",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
@@ -720,57 +840,17 @@
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-4bec1ba48b4d",
-      "title": "Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk",
-      "url": "https://www.coindesk.com/business/2026/05/10/bored-ape-nfts-are-finally-making-a-comeback-as-crypto-traders-rediscover-their-appetite-for-risk",
+      "id": "rss-32607efee0f8",
+      "title": "Policy at Consensus Miami: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/05/10/policy-at-consensus-miami-state-of-crypto",
       "publishedAt": "2026-05-10",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-6e3801064dd2",
-      "title": "Morgan Stanley's Oldenburg: Bitcoin on U.S. bank balance sheets is coming, just not yet",
-      "url": "https://www.coindesk.com/markets/2026/05/03/morgan-stanley-s-oldenburg-bitcoin-on-u-s-bank-balance-sheets-is-coming-just-not-yet",
-      "publishedAt": "2026-05-04",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-62e7b9190b31",
-      "title": "Bitcoin reclaims $80,000 as flows build, but traders hedge and doubt a breakout",
-      "url": "https://www.coindesk.com/markets/2026/05/04/bitcoin-reclaims-usd80-000-as-flows-build-but-traders-hedge-and-doubt-a-breakout",
-      "publishedAt": "2026-05-04",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-5b516c4874e5",
-      "title": "Dogecoin jumps 4% to lead gains among majors as bitcoin zooms higher",
-      "url": "https://www.coindesk.com/markets/2026/05/04/dogecoin-jumps-4-to-lead-gains-among-majors-as-bitcoin-zooms-higher",
-      "publishedAt": "2026-05-04",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-660f2b8c4ff5",
-      "title": "XRP zooms above $1.40 on rising volume, putting focus on further breakout",
-      "url": "https://www.coindesk.com/markets/2026/05/04/xrp-zooms-above-usd1-40-on-rising-volume-putting-focus-on-further-breakout",
-      "publishedAt": "2026-05-04",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-768fb587912f",
-      "title": "Veteran trader Peter Brandt sees bitcoin hitting $250,000, but only after a bottom later this year",
-      "url": "https://www.coindesk.com/markets/2026/05/04/veteran-trader-peter-brandt-sees-bitcoin-hitting-usd250-000-but-only-after-a-bottom-later-this-year",
-      "publishedAt": "2026-05-04",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-ab791f719baf",
-      "title": "Strategy pauses bitcoin buys before Tuesday earnings",
-      "url": "https://www.coindesk.com/business/2026/05/04/strategy-pauses-bitcoin-buys-before-tuesday-earnings",
+      "id": "rss-05ef7c390041",
+      "title": "Jobs data, earnings calls: Crypto Week Ahead",
+      "url": "https://www.coindesk.com/markets/2026/05/04/jobs-data-earnings-calls-crypto-week-ahead",
       "publishedAt": "2026-05-04",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
@@ -784,33 +864,57 @@
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-05ef7c390041",
-      "title": "Jobs data, earnings calls: Crypto Week Ahead",
-      "url": "https://www.coindesk.com/markets/2026/05/04/jobs-data-earnings-calls-crypto-week-ahead",
+      "id": "rss-ab791f719baf",
+      "title": "Strategy pauses bitcoin buys before Tuesday earnings",
+      "url": "https://www.coindesk.com/business/2026/05/04/strategy-pauses-bitcoin-buys-before-tuesday-earnings",
       "publishedAt": "2026-05-04",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-3bc91204a304",
-      "title": "Mike Cagney’s second act: Turning blockchain into Wall Street’s new plumbing",
-      "url": "https://www.coindesk.com/business/2026/05/03/mike-cagney-s-second-act-turning-blockchain-into-wall-street-s-new-plumbing",
-      "publishedAt": "2026-05-03",
+      "id": "rss-768fb587912f",
+      "title": "Veteran trader Peter Brandt sees bitcoin hitting $250,000, but only after a bottom later this year",
+      "url": "https://www.coindesk.com/markets/2026/05/04/veteran-trader-peter-brandt-sees-bitcoin-hitting-usd250-000-but-only-after-a-bottom-later-this-year",
+      "publishedAt": "2026-05-04",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-a404c3400f99",
-      "title": "U.S. voters don't trust Trump administration to oversee crypto sector, CoinDesk poll finds",
-      "url": "https://www.coindesk.com/policy/2026/05/03/u-s-voters-don-t-trust-trump-administration-to-oversee-crypto-sector-coindesk-poll-finds",
-      "publishedAt": "2026-05-03",
+      "id": "rss-660f2b8c4ff5",
+      "title": "XRP zooms above $1.40 on rising volume, putting focus on further breakout",
+      "url": "https://www.coindesk.com/markets/2026/05/04/xrp-zooms-above-usd1-40-on-rising-volume-putting-focus-on-further-breakout",
+      "publishedAt": "2026-05-04",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-8a012ae1af0a",
-      "title": "Americans still prefer banks over crypto for financial access, CoinDesk's survey shows",
-      "url": "https://www.coindesk.com/policy/2026/05/03/americans-still-prefer-banks-over-crypto-for-financial-access-coindesk-s-survey-shows",
+      "id": "rss-5b516c4874e5",
+      "title": "Dogecoin jumps 4% to lead gains among majors as bitcoin zooms higher",
+      "url": "https://www.coindesk.com/markets/2026/05/04/dogecoin-jumps-4-to-lead-gains-among-majors-as-bitcoin-zooms-higher",
+      "publishedAt": "2026-05-04",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-62e7b9190b31",
+      "title": "Bitcoin reclaims $80,000 as flows build, but traders hedge and doubt a breakout",
+      "url": "https://www.coindesk.com/markets/2026/05/04/bitcoin-reclaims-usd80-000-as-flows-build-but-traders-hedge-and-doubt-a-breakout",
+      "publishedAt": "2026-05-04",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-6e3801064dd2",
+      "title": "Morgan Stanley's Oldenburg: Bitcoin on U.S. bank balance sheets is coming, just not yet",
+      "url": "https://www.coindesk.com/markets/2026/05/03/morgan-stanley-s-oldenburg-bitcoin-on-u-s-bank-balance-sheets-is-coming-just-not-yet",
+      "publishedAt": "2026-05-04",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-e170403ec556",
+      "title": "Policy Summit and other things at Consensus 2026: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/05/03/policy-summit-and-other-things-at-consensus-2026-state-of-crypto",
       "publishedAt": "2026-05-03",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
@@ -824,18 +928,26 @@
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-e170403ec556",
-      "title": "Policy Summit and other things at Consensus 2026: State of Crypto",
-      "url": "https://www.coindesk.com/policy/2026/05/03/policy-summit-and-other-things-at-consensus-2026-state-of-crypto",
+      "id": "rss-8a012ae1af0a",
+      "title": "Americans still prefer banks over crypto for financial access, CoinDesk's survey shows",
+      "url": "https://www.coindesk.com/policy/2026/05/03/americans-still-prefer-banks-over-crypto-for-financial-access-coindesk-s-survey-shows",
       "publishedAt": "2026-05-03",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-f61a8c7b5b0d",
-      "title": "Crypto industry backs CLARITY Act yield compromise, pushes Senate Banking for markup",
-      "url": "https://www.coindesk.com/policy/2026/05/02/crypto-industry-backs-clarity-act-yield-compromise-pushes-senate-banking-for-markup",
-      "publishedAt": "2026-05-02",
+      "id": "rss-a404c3400f99",
+      "title": "U.S. voters don't trust Trump administration to oversee crypto sector, CoinDesk poll finds",
+      "url": "https://www.coindesk.com/policy/2026/05/03/u-s-voters-don-t-trust-trump-administration-to-oversee-crypto-sector-coindesk-poll-finds",
+      "publishedAt": "2026-05-03",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-3bc91204a304",
+      "title": "Mike Cagney’s second act: Turning blockchain into Wall Street’s new plumbing",
+      "url": "https://www.coindesk.com/business/2026/05/03/mike-cagney-s-second-act-turning-blockchain-into-wall-street-s-new-plumbing",
+      "publishedAt": "2026-05-03",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
@@ -848,65 +960,17 @@
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-1672faf1769f",
-      "title": "Pudgy Penguins rally coincides with token unlock as analyst flags exit liquidity risk",
-      "url": "https://www.coindesk.com/markets/2026/04/27/pudgy-penguins-rally-coincides-with-token-unlock-as-analyst-flags-exit-liquidity-risk",
-      "publishedAt": "2026-04-27",
+      "id": "rss-f61a8c7b5b0d",
+      "title": "Crypto industry backs CLARITY Act yield compromise, pushes Senate Banking for markup",
+      "url": "https://www.coindesk.com/policy/2026/05/02/crypto-industry-backs-clarity-act-yield-compromise-pushes-senate-banking-for-markup",
+      "publishedAt": "2026-05-02",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-6fe7d844900e",
-      "title": "Bitcoin funds take in $933 million as crypto ETFs hit highest AUM since February",
-      "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-funds-take-in-usd933-million-as-crypto-etfs-hit-highest-aum-since-february",
-      "publishedAt": "2026-04-27",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-2ab3d6564662",
-      "title": "South Korea's KBank and Ripple are teaming up to fix international money transfers",
-      "url": "https://www.coindesk.com/markets/2026/04/27/south-korea-s-kbank-tests-international-blockchain-transfers-with-ripple",
-      "publishedAt": "2026-04-27",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-4cb0fd4504b6",
-      "title": "Bitcoin hits wall at $80,000, one analyst says the pullback is temporary",
-      "url": "https://www.coindesk.com/daybook-us/2026/04/27/bitcoin-hits-wall-at-usd80-000-one-analyst-says-the-pullback-is-temporary",
-      "publishedAt": "2026-04-27",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-b7e12a2454d8",
-      "title": "EU’s largest measures against Russia yet include escalation of crypto sanctions evasion",
-      "url": "https://www.coindesk.com/policy/2026/04/27/eu-s-largest-measures-against-russia-yet-include-escalation-of-crypto-sanctions-evasion",
-      "publishedAt": "2026-04-27",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-2a5983c9244b",
-      "title": "Bitcoin reverses from $79,500 as oil surge triggers broader crypto selloff",
-      "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-reverses-from-usd79-500-as-oil-surge-triggers-broader-crypto-selloff",
-      "publishedAt": "2026-04-27",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-f7e59cddd30b",
-      "title": "Global interest rates, Robinhood, Galaxy earnings: Crypto Week Ahead",
-      "url": "https://www.coindesk.com/markets/2026/04/27/global-interest-rates-robinhood-galaxy-earnings-crypto-week-ahead",
-      "publishedAt": "2026-04-27",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-9c58b602ba7d",
-      "title": "A long-time developer wants to split Bitcoin blockchain and reassign Satoshi coins. The community is calling it a theft",
-      "url": "https://www.coindesk.com/tech/2026/04/27/a-long-time-developer-wants-to-fork-bitcoin-and-reassign-satoshi-coins-the-community-is-calling-it-a-theft",
+      "id": "rss-167226d5d987",
+      "title": "Bitcoin pulls back from 12-week high as Iran rally hits seller wall at $79,400",
+      "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-pulls-back-from-12-week-high-as-iran-rally-hits-seller-wall-at-usd79-400",
       "publishedAt": "2026-04-27",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
@@ -920,33 +984,73 @@
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-167226d5d987",
-      "title": "Bitcoin pulls back from 12-week high as Iran rally hits seller wall at $79,400",
-      "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-pulls-back-from-12-week-high-as-iran-rally-hits-seller-wall-at-usd79-400",
+      "id": "rss-9c58b602ba7d",
+      "title": "A long-time developer wants to split Bitcoin blockchain and reassign Satoshi coins. The community is calling it a theft",
+      "url": "https://www.coindesk.com/tech/2026/04/27/a-long-time-developer-wants-to-fork-bitcoin-and-reassign-satoshi-coins-the-community-is-calling-it-a-theft",
       "publishedAt": "2026-04-27",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-eb65d3292f68",
-      "title": "Running out of time on Clarity: State of Crypto",
-      "url": "https://www.coindesk.com/policy/2026/04/26/running-out-of-time-on-clarity-state-of-crypto",
-      "publishedAt": "2026-04-26",
+      "id": "rss-f7e59cddd30b",
+      "title": "Global interest rates, Robinhood, Galaxy earnings: Crypto Week Ahead",
+      "url": "https://www.coindesk.com/markets/2026/04/27/global-interest-rates-robinhood-galaxy-earnings-crypto-week-ahead",
+      "publishedAt": "2026-04-27",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-2ae0d6e68a83",
-      "title": "Aave raises nearly 80% of the $200 million it needs to cover bad debt left by Kelp DAO exploit",
-      "url": "https://www.coindesk.com/business/2026/04/26/aave-raises-nearly-80-of-the-usd200-million-it-needs-to-cover-bad-debt-left-by-kelp-dao-exploit",
-      "publishedAt": "2026-04-26",
+      "id": "rss-2a5983c9244b",
+      "title": "Bitcoin reverses from $79,500 as oil surge triggers broader crypto selloff",
+      "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-reverses-from-usd79-500-as-oil-surge-triggers-broader-crypto-selloff",
+      "publishedAt": "2026-04-27",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-d380c883b829",
-      "title": "Why DeFi isn't dead despite massive exploits and $13 billion investor exodus",
-      "url": "https://www.coindesk.com/business/2026/04/26/why-defi-isn-t-dead-despite-massive-exploits-and-usd13-billion-investor-exodus",
+      "id": "rss-b7e12a2454d8",
+      "title": "EU’s largest measures against Russia yet include escalation of crypto sanctions evasion",
+      "url": "https://www.coindesk.com/policy/2026/04/27/eu-s-largest-measures-against-russia-yet-include-escalation-of-crypto-sanctions-evasion",
+      "publishedAt": "2026-04-27",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-4cb0fd4504b6",
+      "title": "Bitcoin hits wall at $80,000, one analyst says the pullback is temporary",
+      "url": "https://www.coindesk.com/daybook-us/2026/04/27/bitcoin-hits-wall-at-usd80-000-one-analyst-says-the-pullback-is-temporary",
+      "publishedAt": "2026-04-27",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-2ab3d6564662",
+      "title": "South Korea's KBank and Ripple are teaming up to fix international money transfers",
+      "url": "https://www.coindesk.com/markets/2026/04/27/south-korea-s-kbank-tests-international-blockchain-transfers-with-ripple",
+      "publishedAt": "2026-04-27",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-6fe7d844900e",
+      "title": "Bitcoin funds take in $933 million as crypto ETFs hit highest AUM since February",
+      "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-funds-take-in-usd933-million-as-crypto-etfs-hit-highest-aum-since-february",
+      "publishedAt": "2026-04-27",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-1672faf1769f",
+      "title": "Pudgy Penguins rally coincides with token unlock as analyst flags exit liquidity risk",
+      "url": "https://www.coindesk.com/markets/2026/04/27/pudgy-penguins-rally-coincides-with-token-unlock-as-analyst-flags-exit-liquidity-risk",
+      "publishedAt": "2026-04-27",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-2622f77f371d",
+      "title": "Freezing 5.6 million dormant bitcoin could trigger ‘worst’ single-day repricing",
+      "url": "https://www.coindesk.com/business/2026/04/26/freezing-5-6-million-dormant-bitcoin-could-trigger-worst-single-day-repricing",
       "publishedAt": "2026-04-26",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
@@ -960,73 +1064,33 @@
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-2622f77f371d",
-      "title": "Freezing 5.6 million dormant bitcoin could trigger ‘worst’ single-day repricing",
-      "url": "https://www.coindesk.com/business/2026/04/26/freezing-5-6-million-dormant-bitcoin-could-trigger-worst-single-day-repricing",
+      "id": "rss-d380c883b829",
+      "title": "Why DeFi isn't dead despite massive exploits and $13 billion investor exodus",
+      "url": "https://www.coindesk.com/business/2026/04/26/why-defi-isn-t-dead-despite-massive-exploits-and-usd13-billion-investor-exodus",
       "publishedAt": "2026-04-26",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-6c6e71d9991f",
-      "title": "Hack at Vercel sends crypto developers scrambling to lock down API keys",
-      "url": "https://www.coindesk.com/tech/2026/04/20/hack-at-vercel-sends-crypto-developers-scrambling-to-lock-down-api-keys",
-      "publishedAt": "2026-04-20",
+      "id": "rss-2ae0d6e68a83",
+      "title": "Aave raises nearly 80% of the $200 million it needs to cover bad debt left by Kelp DAO exploit",
+      "url": "https://www.coindesk.com/business/2026/04/26/aave-raises-nearly-80-of-the-usd200-million-it-needs-to-cover-bad-debt-left-by-kelp-dao-exploit",
+      "publishedAt": "2026-04-26",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-3f88072b240f",
-      "title": "The $13 billion DeFi wipeout in two days, and it started with KelpDAO attack",
-      "url": "https://www.coindesk.com/markets/2026/04/20/defi-tvl-drops-more-than-usd13-billion-in-two-days-following-kelp-dao-hack",
-      "publishedAt": "2026-04-20",
+      "id": "rss-eb65d3292f68",
+      "title": "Running out of time on Clarity: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/04/26/running-out-of-time-on-clarity-state-of-crypto",
+      "publishedAt": "2026-04-26",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-2fb1d6453dbe",
-      "title": "LayerZero blames Kelp's setup for $290 million exploit, attributes it to North Korea's Lazarus",
-      "url": "https://www.coindesk.com/tech/2026/04/20/layerzero-blames-kelp-s-setup-for-usd290-million-exploit-attributes-it-to-north-korea-s-lazarus",
-      "publishedAt": "2026-04-20",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-80e919145f1a",
-      "title": "Bitcoin, ether, solana slide, oil jumps on renewed U.S.-Iran war risks",
-      "url": "https://www.coindesk.com/markets/2026/04/20/bitcoin-ether-solana-slide-oil-jumps-on-renewed-u-s-iran-war-risks",
-      "publishedAt": "2026-04-20",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-1ba7d8ecd657",
-      "title": "A $300 million borrowing spike on Aave signals liquidity crunch after KelpDAO exploit",
-      "url": "https://www.coindesk.com/markets/2026/04/20/a-usd300m-borrowing-spike-on-aave-signals-liquidity-crunch-after-exploit",
-      "publishedAt": "2026-04-20",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-db7a83618060",
-      "title": "Here's how bitcoin's $7.9 billion April options expiry impact prices",
-      "url": "https://www.coindesk.com/markets/2026/04/20/here-s-how-bitcoin-s-usd7-9-billion-options-expiry-impact-prices",
-      "publishedAt": "2026-04-20",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-e3a7ec0ff7b1",
-      "title": "Bitcoin is rallying as flagship conference approaches, data shows the gains rarely last",
-      "url": "https://www.coindesk.com/markets/2026/04/18/bitcoin-is-rallying-as-flagship-conference-approaches-data-shows-the-gains-rarely-last",
-      "publishedAt": "2026-04-20",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-920b44c6de8f",
-      "title": "Bitcoin drops from recent highs as traders watch CME gap, DeFi hack fallout",
-      "url": "https://www.coindesk.com/markets/2026/04/20/bitcoin-drops-from-recent-highs-as-traders-watch-cme-gap-defi-hack-fallout",
+      "id": "rss-dfc9f3b72d18",
+      "title": "U.S.-Iran ceasefire ends, Tesla earnings: Crypto Week Ahead",
+      "url": "https://www.coindesk.com/markets/2026/04/20/u-s-iran-ceasefire-ends-tesla-earnings-crypto-week-ahead",
       "publishedAt": "2026-04-20",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
@@ -1040,33 +1104,73 @@
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-dfc9f3b72d18",
-      "title": "U.S.-Iran ceasefire ends, Tesla earnings: Crypto Week Ahead",
-      "url": "https://www.coindesk.com/markets/2026/04/20/u-s-iran-ceasefire-ends-tesla-earnings-crypto-week-ahead",
+      "id": "rss-920b44c6de8f",
+      "title": "Bitcoin drops from recent highs as traders watch CME gap, DeFi hack fallout",
+      "url": "https://www.coindesk.com/markets/2026/04/20/bitcoin-drops-from-recent-highs-as-traders-watch-cme-gap-defi-hack-fallout",
       "publishedAt": "2026-04-20",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-c4eaf9cd5fe8",
-      "title": "Stablecoins can help businesses turn costs into revenue, Paxos Labs cofounder says",
-      "url": "https://www.coindesk.com/business/2026/04/19/stablecoins-can-help-businesses-turn-costs-into-revenue-paxos-labs-cofounder-says",
-      "publishedAt": "2026-04-19",
+      "id": "rss-e3a7ec0ff7b1",
+      "title": "Bitcoin is rallying as flagship conference approaches, data shows the gains rarely last",
+      "url": "https://www.coindesk.com/markets/2026/04/18/bitcoin-is-rallying-as-flagship-conference-approaches-data-shows-the-gains-rarely-last",
+      "publishedAt": "2026-04-20",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-04e7135c996f",
-      "title": "'DeFi is dead': crypto community scrambles after this year's biggest hack exposes contagion risk",
-      "url": "https://www.coindesk.com/news-analysis/2026/04/19/defi-is-dead-crypto-community-scrambles-after-usd292-million-hack-exposes-cross-chain-risks",
-      "publishedAt": "2026-04-19",
+      "id": "rss-db7a83618060",
+      "title": "Here's how bitcoin's $7.9 billion April options expiry impact prices",
+      "url": "https://www.coindesk.com/markets/2026/04/20/here-s-how-bitcoin-s-usd7-9-billion-options-expiry-impact-prices",
+      "publishedAt": "2026-04-20",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-7d8b3111d63c",
-      "title": "Web3 VCs have a differentiation problem",
-      "url": "https://www.coindesk.com/opinion/2026/04/19/web3-vcs-have-a-differentiation-problem",
+      "id": "rss-1ba7d8ecd657",
+      "title": "A $300 million borrowing spike on Aave signals liquidity crunch after KelpDAO exploit",
+      "url": "https://www.coindesk.com/markets/2026/04/20/a-usd300m-borrowing-spike-on-aave-signals-liquidity-crunch-after-exploit",
+      "publishedAt": "2026-04-20",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-80e919145f1a",
+      "title": "Bitcoin, ether, solana slide, oil jumps on renewed U.S.-Iran war risks",
+      "url": "https://www.coindesk.com/markets/2026/04/20/bitcoin-ether-solana-slide-oil-jumps-on-renewed-u-s-iran-war-risks",
+      "publishedAt": "2026-04-20",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-2fb1d6453dbe",
+      "title": "LayerZero blames Kelp's setup for $290 million exploit, attributes it to North Korea's Lazarus",
+      "url": "https://www.coindesk.com/tech/2026/04/20/layerzero-blames-kelp-s-setup-for-usd290-million-exploit-attributes-it-to-north-korea-s-lazarus",
+      "publishedAt": "2026-04-20",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-3f88072b240f",
+      "title": "The $13 billion DeFi wipeout in two days, and it started with KelpDAO attack",
+      "url": "https://www.coindesk.com/markets/2026/04/20/defi-tvl-drops-more-than-usd13-billion-in-two-days-following-kelp-dao-hack",
+      "publishedAt": "2026-04-20",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-6c6e71d9991f",
+      "title": "Hack at Vercel sends crypto developers scrambling to lock down API keys",
+      "url": "https://www.coindesk.com/tech/2026/04/20/hack-at-vercel-sends-crypto-developers-scrambling-to-lock-down-api-keys",
+      "publishedAt": "2026-04-20",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-32e4d9f3780d",
+      "title": "The $292 million Kelp exploit: how it happened, and what it means for DeFi",
+      "url": "https://www.coindesk.com/business/2026/04/19/the-usd292-million-kelp-exploit-how-it-happened-and-what-it-means-for-defi",
       "publishedAt": "2026-04-19",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
@@ -1080,105 +1184,33 @@
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-32e4d9f3780d",
-      "title": "The $292 million Kelp exploit: how it happened, and what it means for DeFi",
-      "url": "https://www.coindesk.com/business/2026/04/19/the-usd292-million-kelp-exploit-how-it-happened-and-what-it-means-for-defi",
+      "id": "rss-7d8b3111d63c",
+      "title": "Web3 VCs have a differentiation problem",
+      "url": "https://www.coindesk.com/opinion/2026/04/19/web3-vcs-have-a-differentiation-problem",
       "publishedAt": "2026-04-19",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-10b909e688e6",
-      "title": "AI agents are set to power crypto payments, but a hidden flaw could expose wallets",
-      "url": "https://www.coindesk.com/tech/2026/04/13/ai-agents-are-set-to-power-crypto-payments-but-a-hidden-flaw-could-expose-wallets",
-      "publishedAt": "2026-04-13",
+      "id": "rss-04e7135c996f",
+      "title": "'DeFi is dead': crypto community scrambles after this year's biggest hack exposes contagion risk",
+      "url": "https://www.coindesk.com/news-analysis/2026/04/19/defi-is-dead-crypto-community-scrambles-after-usd292-million-hack-exposes-cross-chain-risks",
+      "publishedAt": "2026-04-19",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-c06a17009479",
-      "title": "Bitcoin anchors near $70,000 as RAVE's 3,400% surge signals speculative froth",
-      "url": "https://www.coindesk.com/daybook-us/2026/04/13/bitcoin-anchors-near-usd70-000-as-rave-s-3-400-surge-signals-speculative-froth",
-      "publishedAt": "2026-04-13",
+      "id": "rss-c4eaf9cd5fe8",
+      "title": "Stablecoins can help businesses turn costs into revenue, Paxos Labs cofounder says",
+      "url": "https://www.coindesk.com/business/2026/04/19/stablecoins-can-help-businesses-turn-costs-into-revenue-paxos-labs-cofounder-says",
+      "publishedAt": "2026-04-19",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-fcb721da0815",
-      "title": "Crypto markets stall as oil surges past $100 on Strait of Hormuz blockade",
-      "url": "https://www.coindesk.com/markets/2026/04/13/crypto-markets-stall-as-oil-surges-past-usd100-on-strait-of-hormuz-blockade",
-      "publishedAt": "2026-04-13",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-db2d5e549684",
-      "title": "Bank of Korea calls for stock-style circuit breakers on BTC exchanges",
-      "url": "https://www.coindesk.com/markets/2026/04/13/bank-of-korea-calls-for-stock-style-circuit-breakers-on-btc-exchanges",
-      "publishedAt": "2026-04-13",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-336547819b2f",
-      "title": "The one metric investors are overlooking in Michael Saylor’s Strategy",
-      "url": "https://www.coindesk.com/markets/2026/04/13/the-one-metric-investors-are-overlooking-in-michael-saylor-s-strategy",
-      "publishedAt": "2026-04-13",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-e0761aa02b6c",
-      "title": "StarkWare cuts jobs in reorganization as Starknet revenue plunges 99% from peak",
-      "url": "https://www.coindesk.com/markets/2026/04/13/starkware-cuts-jobs-in-reorganization-as-starknet-revenue-plunges-99-from-peak",
-      "publishedAt": "2026-04-13",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-e2ad4546d048",
-      "title": "Clarity Act returns to U.S. Senate, bank earnings: Crypto Week Ahead",
-      "url": "https://www.coindesk.com/markets/2026/04/13/clarity-act-returns-to-u-s-senate-bank-earnings-crypto-week-ahead",
-      "publishedAt": "2026-04-13",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-6cb85f5b7b2f",
-      "title": "Bitcoin hit by $20 million-an-hour selling pressure above $70,000",
-      "url": "https://www.coindesk.com/markets/2026/04/13/bitcoin-hit-by-usd20-million-an-hour-selling-pressure-above-usd70-000",
-      "publishedAt": "2026-04-13",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-32fb05c3f18a",
-      "title": "Attacker mints $1 billion Polkadot tokens on Ethereum, ends up stealing just $250,000",
-      "url": "https://www.coindesk.com/tech/2026/04/13/attacker-mints-usd1-billion-polkadot-tokens-on-ethereum-ends-up-stealing-just-usd250-000",
-      "publishedAt": "2026-04-13",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-3c833c8a1655",
-      "title": "Alameda moves $16 million in Solana's SOL token for possible creditor distribution",
-      "url": "https://www.coindesk.com/markets/2026/04/13/alameda-moves-usd16-million-in-solana-s-sol-token-for-possible-creditor-distribution",
-      "publishedAt": "2026-04-13",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-10db6614584a",
-      "title": "Aave passes landmark vote ending months-long fight over protocol revenue control",
-      "url": "https://www.coindesk.com/tech/2026/04/13/aave-passes-landmark-vote-ending-months-long-fight-over-who-controls-protocol-revenue",
-      "publishedAt": "2026-04-13",
-      "entitySlugs": [],
-      "sourceName": "CoinDesk"
-    },
-    {
-      "id": "rss-0df10b06d7b8",
-      "title": "WLFI threatens legal action against Justin Sun after he accuses Trump-linked project of deceptive DeFi deals",
-      "url": "https://www.coindesk.com/markets/2026/04/13/see-you-in-court-wlfi-threatens-justin-sun-as-feud-over-usd75-million-defi-loan-escalates",
+      "id": "rss-67d86bae7435",
+      "title": "Strategy signals another bitcoin buy as company needs just 2% annual BTC growth to cover dividends",
+      "url": "https://www.coindesk.com/markets/2026/04/13/strategy-signals-another-bitcoin-buy-as-company-needs-just-2-annual-btc-growth-to-cover-dividends",
       "publishedAt": "2026-04-13",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
@@ -1192,9 +1224,97 @@
       "sourceName": "CoinDesk"
     },
     {
-      "id": "rss-67d86bae7435",
-      "title": "Strategy signals another bitcoin buy as company needs just 2% annual BTC growth to cover dividends",
-      "url": "https://www.coindesk.com/markets/2026/04/13/strategy-signals-another-bitcoin-buy-as-company-needs-just-2-annual-btc-growth-to-cover-dividends",
+      "id": "rss-0df10b06d7b8",
+      "title": "WLFI threatens legal action against Justin Sun after he accuses Trump-linked project of deceptive DeFi deals",
+      "url": "https://www.coindesk.com/markets/2026/04/13/see-you-in-court-wlfi-threatens-justin-sun-as-feud-over-usd75-million-defi-loan-escalates",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-10db6614584a",
+      "title": "Aave passes landmark vote ending months-long fight over protocol revenue control",
+      "url": "https://www.coindesk.com/tech/2026/04/13/aave-passes-landmark-vote-ending-months-long-fight-over-who-controls-protocol-revenue",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-3c833c8a1655",
+      "title": "Alameda moves $16 million in Solana's SOL token for possible creditor distribution",
+      "url": "https://www.coindesk.com/markets/2026/04/13/alameda-moves-usd16-million-in-solana-s-sol-token-for-possible-creditor-distribution",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-32fb05c3f18a",
+      "title": "Attacker mints $1 billion Polkadot tokens on Ethereum, ends up stealing just $250,000",
+      "url": "https://www.coindesk.com/tech/2026/04/13/attacker-mints-usd1-billion-polkadot-tokens-on-ethereum-ends-up-stealing-just-usd250-000",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-6cb85f5b7b2f",
+      "title": "Bitcoin hit by $20 million-an-hour selling pressure above $70,000",
+      "url": "https://www.coindesk.com/markets/2026/04/13/bitcoin-hit-by-usd20-million-an-hour-selling-pressure-above-usd70-000",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-e2ad4546d048",
+      "title": "Clarity Act returns to U.S. Senate, bank earnings: Crypto Week Ahead",
+      "url": "https://www.coindesk.com/markets/2026/04/13/clarity-act-returns-to-u-s-senate-bank-earnings-crypto-week-ahead",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-e0761aa02b6c",
+      "title": "StarkWare cuts jobs in reorganization as Starknet revenue plunges 99% from peak",
+      "url": "https://www.coindesk.com/markets/2026/04/13/starkware-cuts-jobs-in-reorganization-as-starknet-revenue-plunges-99-from-peak",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-336547819b2f",
+      "title": "The one metric investors are overlooking in Michael Saylor’s Strategy",
+      "url": "https://www.coindesk.com/markets/2026/04/13/the-one-metric-investors-are-overlooking-in-michael-saylor-s-strategy",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-db2d5e549684",
+      "title": "Bank of Korea calls for stock-style circuit breakers on BTC exchanges",
+      "url": "https://www.coindesk.com/markets/2026/04/13/bank-of-korea-calls-for-stock-style-circuit-breakers-on-btc-exchanges",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-fcb721da0815",
+      "title": "Crypto markets stall as oil surges past $100 on Strait of Hormuz blockade",
+      "url": "https://www.coindesk.com/markets/2026/04/13/crypto-markets-stall-as-oil-surges-past-usd100-on-strait-of-hormuz-blockade",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-c06a17009479",
+      "title": "Bitcoin anchors near $70,000 as RAVE's 3,400% surge signals speculative froth",
+      "url": "https://www.coindesk.com/daybook-us/2026/04/13/bitcoin-anchors-near-usd70-000-as-rave-s-3-400-surge-signals-speculative-froth",
+      "publishedAt": "2026-04-13",
+      "entitySlugs": [],
+      "sourceName": "CoinDesk"
+    },
+    {
+      "id": "rss-10b909e688e6",
+      "title": "AI agents are set to power crypto payments, but a hidden flaw could expose wallets",
+      "url": "https://www.coindesk.com/tech/2026/04/13/ai-agents-are-set-to-power-crypto-payments-but-a-hidden-flaw-could-expose-wallets",
       "publishedAt": "2026-04-13",
       "entitySlugs": [],
       "sourceName": "CoinDesk"
@@ -1322,16 +1442,6 @@
       "sourceName": "Ollama"
     },
     {
-      "id": "n-mlx",
-      "title": "MLX — array framework for Apple Silicon",
-      "url": "https://github.com/ml-explore/mlx",
-      "publishedAt": "2026-03-12",
-      "entitySlugs": [
-        "mlx"
-      ],
-      "sourceName": "GitHub"
-    },
-    {
       "id": "n-apple-intelligence",
       "title": "Apple — Apple Intelligence overview",
       "url": "https://www.apple.com/apple-intelligence/",
@@ -1340,6 +1450,16 @@
         "apple-intelligence"
       ],
       "sourceName": "Apple"
+    },
+    {
+      "id": "n-mlx",
+      "title": "MLX — array framework for Apple Silicon",
+      "url": "https://github.com/ml-explore/mlx",
+      "publishedAt": "2026-03-12",
+      "entitySlugs": [
+        "mlx"
+      ],
+      "sourceName": "GitHub"
     },
     {
       "id": "n-mlx-m5",
